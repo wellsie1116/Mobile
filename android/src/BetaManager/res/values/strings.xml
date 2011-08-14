@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">I am the main activity for the BetaManager</string>
+    <string name="app_name">BetaManager</string>
+</resources>
