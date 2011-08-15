@@ -2,4 +2,8 @@
 <resources>
     <string name="hello">I am the main activity for the BetaManager</string>
     <string name="app_name">BetaManager</string>
+    <string name="prefs_main">PREFS_MAIN</string>
+    <string name="pref_auth_token">AUTH_TOKEN</string>
+    <string name="title_registering">Registering Device</string>
+    <string name="details_registering">"I'll go away when done"</string>
 </resources>
