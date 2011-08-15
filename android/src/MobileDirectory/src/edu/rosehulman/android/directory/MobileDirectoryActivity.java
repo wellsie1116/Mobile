@@ -1,13 +1,7 @@
 package edu.rosehulman.android.directory;
 
 import android.app.Activity;
-import android.content.ActivityNotFoundException;
-import android.content.ComponentName;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -16,16 +10,21 @@ public class MobileDirectoryActivity extends Activity {
 	
 	public static String TAG = "MobileDirectoryActivity";
 
-    private static final String BETA_PACKAGE = "edu.rosehulman.android.directory.beta";
-    private static final String BETA_ACTIVITY = "edu.rosehulman.android.directory.beta.BetaManagerActivity";
+	private BetaManagerManager m_betaManager;
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        if (hasBetaManager()) {
-        	launchBetaManagerStartup();
+        m_betaManager = new BetaManagerManager(this);
+        
+        if (m_betaManager.hasBetaManager()) {
+        	if (m_betaManager.isBetaRegistered()) {
+        		m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_STARTUP);	
+        	} else {
+        		m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_REGISTER);
+        	}
         }
     }
     
@@ -38,7 +37,7 @@ public class MobileDirectoryActivity extends Activity {
     
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
-    	menu.setGroupVisible(R.id.beta_channel, hasBetaManager());
+    	menu.setGroupVisible(R.id.beta_channel, m_betaManager.hasBetaManager());
         return true;
     }
     
@@ -47,42 +46,12 @@ public class MobileDirectoryActivity extends Activity {
         // Handle item selection
         switch (item.getItemId()) {
         case R.id.beta_manager:
-            launchBetaManager();
+            m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_BETA_MANAGER);
             return true;
         default:
             return super.onOptionsItemSelected(item);
         }
     }
     
-    private boolean hasBetaManager() {
-    	PackageManager packageManager = getPackageManager(); 
-    	ComponentName name = new ComponentName(BETA_PACKAGE, BETA_ACTIVITY);
-    	
-    	try {
-    		packageManager.getActivityInfo(name, PackageManager.GET_META_DATA);
-    	} catch (NameNotFoundException ex) {
-    		return false;
-    	}
-
-    	return true;
-    }
-    
-    private void launchBetaManagerStartup() {
-    	Intent intent = new Intent("edu.rosehulman.android.directory.beta.SHOW_STARTUP");
-    	try {
-    		startActivity(intent);
-    	} catch (ActivityNotFoundException ex) {
-    		Log.e(TAG, "Startup activity not found");
-    	}
-    }
-    
-    private void launchBetaManager() {
-    	Intent intent = new Intent("edu.rosehulman.android.directory.beta.SHOW_BETA_MANAGER");
-    	try {
-    		startActivity(intent);
-    	} catch (ActivityNotFoundException ex) {
-    		Log.e(TAG, "Beta Manager activity not found");
-    	}
-    }
     
 }

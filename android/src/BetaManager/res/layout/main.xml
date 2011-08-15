@@ -16,4 +16,10 @@
 		android:id="@+id/btnUnitTests" 
 		android:text="Run Unit Tests"
 		/>
+	<Button 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/btnUnregister" 
+		android:text="Unregister"
+		/>
 </LinearLayout>

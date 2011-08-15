@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 public class StartupActivity extends Activity {
-	
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,5 +18,6 @@ public class StartupActivity extends Activity {
 				finish();
 			}
         });
+        
     }
 }
