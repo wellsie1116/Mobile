@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		927602F5140778A200D50488 /* Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927602F5140778A200D50488 /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHITMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927602F9140778A200D50488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		927602FB140778A200D50488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		927602FD140778A200D50488 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		927602F6140778A200D50488 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				927602F5140778A200D50488 /* Mobile.app */,
+				927602F5140778A200D50488 /* RHITMobile.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			);
 			name = RHITMobile;
 			productName = Mobile;
-			productReference = 927602F5140778A200D50488 /* Mobile.app */;
+			productReference = 927602F5140778A200D50488 /* RHITMobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 			attributes = {
 				ORGANIZATIONNAME = "Rose-Hulman Institute of Technology";
 			};
-			buildConfigurationList = 927602EF140778A200D50488 /* Build configuration list for PBXProject "RHITMobile" */;
+			buildConfigurationList = 927602EF140778A200D50488 /* Build configuration list for PBXProject "Mobile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -286,7 +286,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		927602EF140778A200D50488 /* Build configuration list for PBXProject "RHITMobile" */ = {
+		927602EF140778A200D50488 /* Build configuration list for PBXProject "Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9276031A140778A300D50488 /* Debug */,
