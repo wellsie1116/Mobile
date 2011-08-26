@@ -12,6 +12,20 @@
 		922E961F14077D2600CC59B4 /* RHPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E961E14077D2600CC59B4 /* RHPath.m */; };
 		922E962214077D3200CC59B4 /* RHEnclosure.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E962114077D3200CC59B4 /* RHEnclosure.m */; };
 		922E962514077D4A00CC59B4 /* RHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E962414077D4A00CC59B4 /* RHPerson.m */; };
+		922E96321407800100CC59B4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922E96311407800100CC59B4 /* SenTestingKit.framework */; };
+		922E96331407800100CC59B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602F9140778A200D50488 /* UIKit.framework */; };
+		922E96341407800100CC59B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FB140778A200D50488 /* Foundation.framework */; };
+		922E96351407800100CC59B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FD140778A200D50488 /* CoreGraphics.framework */; };
+		922E963B1407800100CC59B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 922E96391407800100CC59B4 /* InfoPlist.strings */; };
+		922E963D1407800100CC59B4 /* MobileLogicTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 922E963C1407800100CC59B4 /* MobileLogicTests.h */; };
+		922E963F1407800100CC59B4 /* MobileLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E963E1407800100CC59B4 /* MobileLogicTests.m */; };
+		922E964A1407800D00CC59B4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922E96311407800100CC59B4 /* SenTestingKit.framework */; };
+		922E964B1407800D00CC59B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602F9140778A200D50488 /* UIKit.framework */; };
+		922E964C1407800D00CC59B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FB140778A200D50488 /* Foundation.framework */; };
+		922E964D1407800D00CC59B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FD140778A200D50488 /* CoreGraphics.framework */; };
+		922E96531407800D00CC59B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 922E96511407800D00CC59B4 /* InfoPlist.strings */; };
+		922E96551407800D00CC59B4 /* MobileApplicationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 922E96541407800D00CC59B4 /* MobileApplicationTests.h */; };
+		922E96571407800D00CC59B4 /* MobileApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E96561407800D00CC59B4 /* MobileApplicationTests.m */; };
 		927602FA140778A200D50488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602F9140778A200D50488 /* UIKit.framework */; };
 		927602FC140778A200D50488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FB140778A200D50488 /* Foundation.framework */; };
 		927602FE140778A200D50488 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FD140778A200D50488 /* CoreGraphics.framework */; };
@@ -36,6 +50,19 @@
 		922E962114077D3200CC59B4 /* RHEnclosure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHEnclosure.m; sourceTree = "<group>"; };
 		922E962314077D4A00CC59B4 /* RHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPerson.h; sourceTree = "<group>"; };
 		922E962414077D4A00CC59B4 /* RHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPerson.m; sourceTree = "<group>"; };
+		922E96301407800100CC59B4 /* MobileLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		922E96311407800100CC59B4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		922E96381407800100CC59B4 /* MobileLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileLogicTests-Info.plist"; sourceTree = "<group>"; };
+		922E963A1407800100CC59B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		922E963C1407800100CC59B4 /* MobileLogicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileLogicTests.h; sourceTree = "<group>"; };
+		922E963E1407800100CC59B4 /* MobileLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileLogicTests.m; sourceTree = "<group>"; };
+		922E96401407800100CC59B4 /* MobileLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		922E96491407800D00CC59B4 /* MobileApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		922E96501407800D00CC59B4 /* MobileApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		922E96521407800D00CC59B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		922E96541407800D00CC59B4 /* MobileApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileApplicationTests.h; sourceTree = "<group>"; };
+		922E96561407800D00CC59B4 /* MobileApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileApplicationTests.m; sourceTree = "<group>"; };
+		922E96581407800D00CC59B4 /* MobileApplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
 		927602F5140778A200D50488 /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = RHITMobile.app; path = Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927602F9140778A200D50488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		927602FB140778A200D50488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,15 +74,37 @@
 		92760308140778A200D50488 /* MobileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileAppDelegate.h; sourceTree = "<group>"; };
 		92760309140778A300D50488 /* MobileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileAppDelegate.m; sourceTree = "<group>"; };
 		9276030C140778A300D50488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		9276030E140778A300D50488 /* MapViewController.h */ = {isa = PBXFileReference; path = MapViewController.h; sourceTree = "<group>"; };
+		9276030E140778A300D50488 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		9276030F140778A300D50488 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		92760311140778A300D50488 /* SearchViewController.h */ = {isa = PBXFileReference; path = SearchViewController.h; sourceTree = "<group>"; };
+		92760311140778A300D50488 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		92760312140778A300D50488 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		92760315140778A300D50488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MapView.xib; sourceTree = "<group>"; };
 		92760318140778A300D50488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		922E962C1407800100CC59B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922E96321407800100CC59B4 /* SenTestingKit.framework in Frameworks */,
+				922E96331407800100CC59B4 /* UIKit.framework in Frameworks */,
+				922E96341407800100CC59B4 /* Foundation.framework in Frameworks */,
+				922E96351407800100CC59B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922E96451407800D00CC59B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922E964A1407800D00CC59B4 /* SenTestingKit.framework in Frameworks */,
+				922E964B1407800D00CC59B4 /* UIKit.framework in Frameworks */,
+				922E964C1407800D00CC59B4 /* Foundation.framework in Frameworks */,
+				922E964D1407800D00CC59B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		927602F2140778A200D50488 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,10 +142,52 @@
 			name = Test;
 			sourceTree = "<group>";
 		};
+		922E96361407800100CC59B4 /* MobileLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				922E963C1407800100CC59B4 /* MobileLogicTests.h */,
+				922E963E1407800100CC59B4 /* MobileLogicTests.m */,
+				922E96371407800100CC59B4 /* Supporting Files */,
+			);
+			path = MobileLogicTests;
+			sourceTree = "<group>";
+		};
+		922E96371407800100CC59B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				922E96381407800100CC59B4 /* MobileLogicTests-Info.plist */,
+				922E96391407800100CC59B4 /* InfoPlist.strings */,
+				922E96401407800100CC59B4 /* MobileLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		922E964E1407800D00CC59B4 /* MobileApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				922E96541407800D00CC59B4 /* MobileApplicationTests.h */,
+				922E96561407800D00CC59B4 /* MobileApplicationTests.m */,
+				922E964F1407800D00CC59B4 /* Supporting Files */,
+			);
+			path = MobileApplicationTests;
+			sourceTree = "<group>";
+		};
+		922E964F1407800D00CC59B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				922E96501407800D00CC59B4 /* MobileApplicationTests-Info.plist */,
+				922E96511407800D00CC59B4 /* InfoPlist.strings */,
+				922E96581407800D00CC59B4 /* MobileApplicationTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		927602EA140778A200D50488 = {
 			isa = PBXGroup;
 			children = (
 				927602FF140778A200D50488 /* Mobile */,
+				922E96361407800100CC59B4 /* MobileLogicTests */,
+				922E964E1407800D00CC59B4 /* MobileApplicationTests */,
 				927602F8140778A200D50488 /* Frameworks */,
 				927602F6140778A200D50488 /* Products */,
 			);
@@ -106,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				927602F5140778A200D50488 /* RHITMobile.app */,
+				922E96301407800100CC59B4 /* MobileLogicTests.octest */,
+				922E96491407800D00CC59B4 /* MobileApplicationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +209,7 @@
 				927602F9140778A200D50488 /* UIKit.framework */,
 				927602FB140778A200D50488 /* Foundation.framework */,
 				927602FD140778A200D50488 /* CoreGraphics.framework */,
+				922E96311407800100CC59B4 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,6 +247,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		922E962F1407800100CC59B4 /* MobileLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922E96411407800100CC59B4 /* Build configuration list for PBXNativeTarget "MobileLogicTests" */;
+			buildPhases = (
+				922E962B1407800100CC59B4 /* Sources */,
+				922E962C1407800100CC59B4 /* Frameworks */,
+				922E962D1407800100CC59B4 /* Resources */,
+				922E962E1407800100CC59B4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileLogicTests;
+			productName = MobileLogicTests;
+			productReference = 922E96301407800100CC59B4 /* MobileLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		922E96481407800D00CC59B4 /* MobileApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922E96591407800D00CC59B4 /* Build configuration list for PBXNativeTarget "MobileApplicationTests" */;
+			buildPhases = (
+				922E96441407800D00CC59B4 /* Sources */,
+				922E96451407800D00CC59B4 /* Frameworks */,
+				922E96461407800D00CC59B4 /* Resources */,
+				922E96471407800D00CC59B4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileApplicationTests;
+			productName = MobileApplicationTests;
+			productReference = 922E96491407800D00CC59B4 /* MobileApplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		927602F4140778A200D50488 /* Mobile */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9276031C140778A300D50488 /* Build configuration list for PBXNativeTarget "Mobile" */;
@@ -191,11 +321,31 @@
 			projectRoot = "";
 			targets = (
 				927602F4140778A200D50488 /* Mobile */,
+				922E962F1407800100CC59B4 /* MobileLogicTests */,
+				922E96481407800D00CC59B4 /* MobileApplicationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		922E962D1407800100CC59B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922E963B1407800100CC59B4 /* InfoPlist.strings in Resources */,
+				922E963D1407800100CC59B4 /* MobileLogicTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922E96461407800D00CC59B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922E96531407800D00CC59B4 /* InfoPlist.strings in Resources */,
+				922E96551407800D00CC59B4 /* MobileApplicationTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		927602F3140778A200D50488 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,7 +359,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		922E962E1407800100CC59B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		922E96471407800D00CC59B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		922E962B1407800100CC59B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922E963F1407800100CC59B4 /* MobileLogicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922E96441407800D00CC59B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922E96571407800D00CC59B4 /* MobileApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		927602F1140778A200D50488 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +424,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		922E96391407800100CC59B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				922E963A1407800100CC59B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		922E96511407800D00CC59B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				922E96521407800D00CC59B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		92760302140778A200D50488 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -264,6 +475,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		922E96421407800100CC59B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileLogicTests/MobileLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "MobileLogicTests/MobileLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		922E96431407800100CC59B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileLogicTests/MobileLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "MobileLogicTests/MobileLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		922E965A1407800D00CC59B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileApplicationTests/MobileApplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "MobileApplicationTests/MobileApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		922E965B1407800D00CC59B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileApplicationTests/MobileApplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "MobileApplicationTests/MobileApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		9276031A140778A300D50488 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -332,6 +603,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		922E96411407800100CC59B4 /* Build configuration list for PBXNativeTarget "MobileLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922E96421407800100CC59B4 /* Debug */,
+				922E96431407800100CC59B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		922E96591407800D00CC59B4 /* Build configuration list for PBXNativeTarget "MobileApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922E965A1407800D00CC59B4 /* Debug */,
+				922E965B1407800D00CC59B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		927602EF140778A200D50488 /* Build configuration list for PBXProject "Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
