@@ -2,6 +2,7 @@
 *.swp
 *~.nib
 
+doc/
 build/
 
 *.pbxuser
