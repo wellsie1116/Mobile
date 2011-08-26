@@ -54,6 +54,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922E961514077C2E00CC59B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		922E961614077C3C00CC59B4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
 		927602EA140778A200D50488 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +98,8 @@
 		927602FF140778A200D50488 /* Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				922E961614077C3C00CC59B4 /* Test */,
+				922E961514077C2E00CC59B4 /* Model */,
 				92760308140778A200D50488 /* MobileAppDelegate.h */,
 				92760309140778A300D50488 /* MobileAppDelegate.m */,
 				9276030B140778A300D50488 /* MainWindow.xib */,
