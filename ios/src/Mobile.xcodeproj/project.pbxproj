@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		927602F4140778A200D50488 /* RHITMobile */ = {
+		927602F4140778A200D50488 /* Mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9276031C140778A300D50488 /* Build configuration list for PBXNativeTarget "RHITMobile" */;
+			buildConfigurationList = 9276031C140778A300D50488 /* Build configuration list for PBXNativeTarget "Mobile" */;
 			buildPhases = (
 				927602F1140778A200D50488 /* Sources */,
 				927602F2140778A200D50488 /* Frameworks */,
@@ -140,7 +140,7 @@
 			);
 			dependencies = (
 			);
-			name = RHITMobile;
+			name = Mobile;
 			productName = Mobile;
 			productReference = 927602F5140778A200D50488 /* RHITMobile.app */;
 			productType = "com.apple.product-type.application";
@@ -165,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				927602F4140778A200D50488 /* RHITMobile */,
+				927602F4140778A200D50488 /* Mobile */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +311,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9276031C140778A300D50488 /* Build configuration list for PBXNativeTarget "RHITMobile" */ = {
+		9276031C140778A300D50488 /* Build configuration list for PBXNativeTarget "Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9276031D140778A300D50488 /* Debug */,
