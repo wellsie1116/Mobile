@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		927602F4140778A200D50488 /* Mobile */ = {
+		927602F4140778A200D50488 /* RHITMobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9276031C140778A300D50488 /* Build configuration list for PBXNativeTarget "Mobile" */;
+			buildConfigurationList = 9276031C140778A300D50488 /* Build configuration list for PBXNativeTarget "RHITMobile" */;
 			buildPhases = (
 				927602F1140778A200D50488 /* Sources */,
 				927602F2140778A200D50488 /* Frameworks */,
@@ -124,7 +124,7 @@
 			);
 			dependencies = (
 			);
-			name = Mobile;
+			name = RHITMobile;
 			productName = Mobile;
 			productReference = 927602F5140778A200D50488 /* Mobile.app */;
 			productType = "com.apple.product-type.application";
@@ -137,7 +137,7 @@
 			attributes = {
 				ORGANIZATIONNAME = "Rose-Hulman Institute of Technology";
 			};
-			buildConfigurationList = 927602EF140778A200D50488 /* Build configuration list for PBXProject "Mobile" */;
+			buildConfigurationList = 927602EF140778A200D50488 /* Build configuration list for PBXProject "RHITMobile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				927602F4140778A200D50488 /* Mobile */,
+				927602F4140778A200D50488 /* RHITMobile */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +286,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		927602EF140778A200D50488 /* Build configuration list for PBXProject "Mobile" */ = {
+		927602EF140778A200D50488 /* Build configuration list for PBXProject "RHITMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9276031A140778A300D50488 /* Debug */,
@@ -295,13 +295,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9276031C140778A300D50488 /* Build configuration list for PBXNativeTarget "Mobile" */ = {
+		9276031C140778A300D50488 /* Build configuration list for PBXNativeTarget "RHITMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9276031D140778A300D50488 /* Debug */,
 				9276031E140778A300D50488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
