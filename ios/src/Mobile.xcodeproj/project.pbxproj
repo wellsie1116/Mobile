@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922E961914077CF100CC59B4 /* RHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E961814077CF100CC59B4 /* RHNode.m */; };
+		922E961C14077D0700CC59B4 /* RHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E961B14077D0700CC59B4 /* RHLocation.m */; };
+		922E961F14077D2600CC59B4 /* RHPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E961E14077D2600CC59B4 /* RHPath.m */; };
+		922E962214077D3200CC59B4 /* RHEnclosure.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E962114077D3200CC59B4 /* RHEnclosure.m */; };
+		922E962514077D4A00CC59B4 /* RHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E962414077D4A00CC59B4 /* RHPerson.m */; };
 		927602FA140778A200D50488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602F9140778A200D50488 /* UIKit.framework */; };
 		927602FC140778A200D50488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FB140778A200D50488 /* Foundation.framework */; };
 		927602FE140778A200D50488 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FD140778A200D50488 /* CoreGraphics.framework */; };
@@ -21,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		922E961714077CF100CC59B4 /* RHNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNode.h; sourceTree = "<group>"; };
+		922E961814077CF100CC59B4 /* RHNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNode.m; sourceTree = "<group>"; };
+		922E961A14077D0700CC59B4 /* RHLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLocation.h; sourceTree = "<group>"; };
+		922E961B14077D0700CC59B4 /* RHLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLocation.m; sourceTree = "<group>"; };
+		922E961D14077D2600CC59B4 /* RHPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPath.h; sourceTree = "<group>"; };
+		922E961E14077D2600CC59B4 /* RHPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPath.m; sourceTree = "<group>"; };
+		922E962014077D3200CC59B4 /* RHEnclosure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHEnclosure.h; sourceTree = "<group>"; };
+		922E962114077D3200CC59B4 /* RHEnclosure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHEnclosure.m; sourceTree = "<group>"; };
+		922E962314077D4A00CC59B4 /* RHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPerson.h; sourceTree = "<group>"; };
+		922E962414077D4A00CC59B4 /* RHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPerson.m; sourceTree = "<group>"; };
 		927602F5140778A200D50488 /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHITMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927602F9140778A200D50488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		927602FB140778A200D50488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +72,16 @@
 		922E961514077C2E00CC59B4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				922E961714077CF100CC59B4 /* RHNode.h */,
+				922E961814077CF100CC59B4 /* RHNode.m */,
+				922E961A14077D0700CC59B4 /* RHLocation.h */,
+				922E961B14077D0700CC59B4 /* RHLocation.m */,
+				922E961D14077D2600CC59B4 /* RHPath.h */,
+				922E961E14077D2600CC59B4 /* RHPath.m */,
+				922E962014077D3200CC59B4 /* RHEnclosure.h */,
+				922E962114077D3200CC59B4 /* RHEnclosure.m */,
+				922E962314077D4A00CC59B4 /* RHPerson.h */,
+				922E962414077D4A00CC59B4 /* RHPerson.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -193,6 +218,11 @@
 				9276030A140778A300D50488 /* MobileAppDelegate.m in Sources */,
 				92760310140778A300D50488 /* FirstViewController.m in Sources */,
 				92760313140778A300D50488 /* SecondViewController.m in Sources */,
+				922E961914077CF100CC59B4 /* RHNode.m in Sources */,
+				922E961C14077D0700CC59B4 /* RHLocation.m in Sources */,
+				922E961F14077D2600CC59B4 /* RHPath.m in Sources */,
+				922E962214077D3200CC59B4 /* RHEnclosure.m in Sources */,
+				922E962514077D4A00CC59B4 /* RHPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
