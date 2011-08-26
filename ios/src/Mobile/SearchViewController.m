@@ -1,14 +1,14 @@
 //
-//  SecondViewController.m
+//  SearchViewController.m
 //  Mobile
 //
 //  Created by Jimmy Theis on 8/25/11.
 //  Copyright 2011 Rose-Hulman Institute of Technology. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "SearchViewController.h"
 
-@implementation SecondViewController
+@implementation SearchViewController
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

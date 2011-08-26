@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  SearchViewController.h
 //  Mobile
 //
 //  Created by Jimmy Theis on 8/25/11.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SearchViewController : UIViewController
 
 @end

@@ -19,10 +19,10 @@
 		92760306140778A200D50488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92760305140778A200D50488 /* main.m */; };
 		9276030A140778A300D50488 /* MobileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92760309140778A300D50488 /* MobileAppDelegate.m */; };
 		9276030D140778A300D50488 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9276030B140778A300D50488 /* MainWindow.xib */; };
-		92760310140778A300D50488 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9276030F140778A300D50488 /* FirstViewController.m */; };
-		92760313140778A300D50488 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92760312140778A300D50488 /* SecondViewController.m */; };
-		92760316140778A300D50488 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92760314140778A300D50488 /* FirstView.xib */; };
-		92760319140778A300D50488 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92760317140778A300D50488 /* SecondView.xib */; };
+		92760310140778A300D50488 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9276030F140778A300D50488 /* MapViewController.m */; };
+		92760313140778A300D50488 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92760312140778A300D50488 /* SearchViewController.m */; };
+		92760316140778A300D50488 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92760314140778A300D50488 /* MapView.xib */; };
+		92760319140778A300D50488 /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92760317140778A300D50488 /* SearchView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 		922E962114077D3200CC59B4 /* RHEnclosure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHEnclosure.m; sourceTree = "<group>"; };
 		922E962314077D4A00CC59B4 /* RHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPerson.h; sourceTree = "<group>"; };
 		922E962414077D4A00CC59B4 /* RHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPerson.m; sourceTree = "<group>"; };
-		927602F5140778A200D50488 /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHITMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927602F5140778A200D50488 /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = RHITMobile.app; path = Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927602F9140778A200D50488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		927602FB140778A200D50488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		927602FD140778A200D50488 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,12 +47,12 @@
 		92760308140778A200D50488 /* MobileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileAppDelegate.h; sourceTree = "<group>"; };
 		92760309140778A300D50488 /* MobileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileAppDelegate.m; sourceTree = "<group>"; };
 		9276030C140778A300D50488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		9276030E140778A300D50488 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		9276030F140778A300D50488 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		92760311140778A300D50488 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		92760312140778A300D50488 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		92760315140778A300D50488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		92760318140778A300D50488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		9276030E140778A300D50488 /* MapViewController.h */ = {isa = PBXFileReference; path = MapViewController.h; sourceTree = "<group>"; };
+		9276030F140778A300D50488 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		92760311140778A300D50488 /* SearchViewController.h */ = {isa = PBXFileReference; path = SearchViewController.h; sourceTree = "<group>"; };
+		92760312140778A300D50488 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		92760315140778A300D50488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MapView.xib; sourceTree = "<group>"; };
+		92760318140778A300D50488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,12 +128,12 @@
 				92760308140778A200D50488 /* MobileAppDelegate.h */,
 				92760309140778A300D50488 /* MobileAppDelegate.m */,
 				9276030B140778A300D50488 /* MainWindow.xib */,
-				9276030E140778A300D50488 /* FirstViewController.h */,
-				9276030F140778A300D50488 /* FirstViewController.m */,
-				92760311140778A300D50488 /* SecondViewController.h */,
-				92760312140778A300D50488 /* SecondViewController.m */,
-				92760314140778A300D50488 /* FirstView.xib */,
-				92760317140778A300D50488 /* SecondView.xib */,
+				9276030E140778A300D50488 /* MapViewController.h */,
+				9276030F140778A300D50488 /* MapViewController.m */,
+				92760311140778A300D50488 /* SearchViewController.h */,
+				92760312140778A300D50488 /* SearchViewController.m */,
+				92760314140778A300D50488 /* MapView.xib */,
+				92760317140778A300D50488 /* SearchView.xib */,
 				92760300140778A200D50488 /* Supporting Files */,
 			);
 			path = Mobile;
@@ -202,8 +202,8 @@
 			files = (
 				92760304140778A200D50488 /* InfoPlist.strings in Resources */,
 				9276030D140778A300D50488 /* MainWindow.xib in Resources */,
-				92760316140778A300D50488 /* FirstView.xib in Resources */,
-				92760319140778A300D50488 /* SecondView.xib in Resources */,
+				92760316140778A300D50488 /* MapView.xib in Resources */,
+				92760319140778A300D50488 /* SearchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,8 +216,8 @@
 			files = (
 				92760306140778A200D50488 /* main.m in Sources */,
 				9276030A140778A300D50488 /* MobileAppDelegate.m in Sources */,
-				92760310140778A300D50488 /* FirstViewController.m in Sources */,
-				92760313140778A300D50488 /* SecondViewController.m in Sources */,
+				92760310140778A300D50488 /* MapViewController.m in Sources */,
+				92760313140778A300D50488 /* SearchViewController.m in Sources */,
 				922E961914077CF100CC59B4 /* RHNode.m in Sources */,
 				922E961C14077D0700CC59B4 /* RHLocation.m in Sources */,
 				922E961F14077D2600CC59B4 /* RHPath.m in Sources */,
@@ -245,20 +245,20 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		92760314140778A300D50488 /* FirstView.xib */ = {
+		92760314140778A300D50488 /* MapView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				92760315140778A300D50488 /* en */,
 			);
-			name = FirstView.xib;
+			name = MapView.xib;
 			sourceTree = "<group>";
 		};
-		92760317140778A300D50488 /* SecondView.xib */ = {
+		92760317140778A300D50488 /* SearchView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				92760318140778A300D50488 /* en */,
 			);
-			name = SecondView.xib;
+			name = SearchView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -1,14 +1,14 @@
 //
-//  FirstViewController.m
+//  MapViewController.m
 //  Mobile
 //
 //  Created by Jimmy Theis on 8/25/11.
 //  Copyright 2011 Rose-Hulman Institute of Technology. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "MapViewController.h"
 
-@implementation FirstViewController
+@implementation MapViewController
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
