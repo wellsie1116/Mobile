@@ -10,4 +10,12 @@
 
 @interface RHEnclosure : NSObject
 
+/// Nodes that are completely contained in the Enclosure and do not contribute
+/// to its structure.
+@property (nonatomic, retain) NSArray *internalNodes;
+
+/// Nodes that make up the edge of the Enclosure and directly affect its
+/// structure.
+@property (nonatomic, retain) NSArray *edgeNodes;
+
 @end
