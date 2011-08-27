@@ -7,6 +7,7 @@
 //
 
 #import "MobileApplicationTests.h"
+#import "MobileAppDelegate.h"
 
 @implementation MobileApplicationTests
 
@@ -17,16 +18,16 @@
     // Set-up code here.
 }
 
+- (void) testAppDelegate {
+    id appDelegate = [[UIApplication sharedApplication] delegate];
+    STAssertNotNil(appDelegate, @"Could not find the app delegate");
+}
+
 - (void)tearDown
 {
     // Tear-down code here.
     
     [super tearDown];
-}
-
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in MobileApplicationTests");
 }
 
 @end

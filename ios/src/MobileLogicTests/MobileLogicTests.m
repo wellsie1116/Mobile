@@ -58,6 +58,11 @@
     // TODO: Create and initialize RHEnclosure object
     
     // TODO: Create and initialize RHPerson object
+    
+    [node1 release];
+    [node2 release];
+    [nodes release];
+    [path release];
 }
 
 @end
