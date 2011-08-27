@@ -33,6 +33,7 @@
 - (void) dealloc {
     [latitude release];
     [longitude release];
+    [super dealloc];
 }
 
 @end

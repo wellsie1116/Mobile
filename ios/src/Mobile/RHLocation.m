@@ -13,14 +13,21 @@
 @synthesize nodes;
 @synthesize enclosedLocations;
 
-- (id)init
-{
+- (id) initWithNodes:(NSArray *)newNodes 
+   enclosedLocations:(NSArray *)newLocations {
     self = [super init];
     if (self) {
-        // Initialization code here.
+        self.nodes = newNodes;
+        self.enclosedLocations = newLocations;
     }
     
     return self;
+}
+
+- (void) dealloc {
+    [self.nodes release];
+    [self.enclosedLocations release];
+    [super dealloc];
 }
 
 @end

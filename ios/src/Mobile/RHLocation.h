@@ -19,6 +19,10 @@
 @property (nonatomic, retain) NSArray *nodes; 
 
 /// Any additional RHLocation objects that are enclosed by this location.
-@property (nonatomic, retain) NSArray *enclosedLocations; 
+@property (nonatomic, retain) NSArray *enclosedLocations;
+
+/// Initialize with all properties
+- (id) initWithNodes:(NSArray *)nodes
+   enclosedLocations:(NSArray *)enclosedlocations;
 
 @end
