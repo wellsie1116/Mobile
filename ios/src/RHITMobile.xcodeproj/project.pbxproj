@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9226030E1409AEF00065F705 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9226030D1409AEF00065F705 /* MapKit.framework */; };
+		922603191409B3540065F705 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FECF1409AB5D00AE406E /* SenTestingKit.framework */; };
+		9226031A1409B3540065F705 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEA81409AB5D00AE406E /* UIKit.framework */; };
+		9226031B1409B3540065F705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAA1409AB5D00AE406E /* Foundation.framework */; };
+		9226031C1409B3540065F705 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */; };
+		922603221409B3540065F705 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 922603201409B3540065F705 /* InfoPlist.strings */; };
+		922603241409B3540065F705 /* RHITMobileLogicTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 922603231409B3540065F705 /* RHITMobileLogicTests.h */; };
+		922603261409B3540065F705 /* RHITMobileLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603251409B3540065F705 /* RHITMobileLogicTests.m */; };
 		9265FEA91409AB5D00AE406E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEA81409AB5D00AE406E /* UIKit.framework */; };
 		9265FEAB1409AB5D00AE406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAA1409AB5D00AE406E /* Foundation.framework */; };
 		9265FEAD1409AB5D00AE406E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */; };
@@ -40,6 +47,12 @@
 
 /* Begin PBXFileReference section */
 		9226030D1409AEF00065F705 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		922603181409B3540065F705 /* RHITMobileLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHITMobileLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9226031F1409B3540065F705 /* RHITMobileLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHITMobileLogicTests-Info.plist"; sourceTree = "<group>"; };
+		922603211409B3540065F705 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		922603231409B3540065F705 /* RHITMobileLogicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHITMobileLogicTests.h; sourceTree = "<group>"; };
+		922603251409B3540065F705 /* RHITMobileLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHITMobileLogicTests.m; sourceTree = "<group>"; };
+		922603271409B3540065F705 /* RHITMobileLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHITMobileLogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		9265FEA41409AB5D00AE406E /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHITMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9265FEA81409AB5D00AE406E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9265FEAA1409AB5D00AE406E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +79,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		922603141409B3540065F705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922603191409B3540065F705 /* SenTestingKit.framework in Frameworks */,
+				9226031A1409B3540065F705 /* UIKit.framework in Frameworks */,
+				9226031B1409B3540065F705 /* Foundation.framework in Frameworks */,
+				9226031C1409B3540065F705 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9265FEA11409AB5D00AE406E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,11 +129,32 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		9226031D1409B3540065F705 /* RHITMobileLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				922603231409B3540065F705 /* RHITMobileLogicTests.h */,
+				922603251409B3540065F705 /* RHITMobileLogicTests.m */,
+				9226031E1409B3540065F705 /* Supporting Files */,
+			);
+			path = RHITMobileLogicTests;
+			sourceTree = "<group>";
+		};
+		9226031E1409B3540065F705 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9226031F1409B3540065F705 /* RHITMobileLogicTests-Info.plist */,
+				922603201409B3540065F705 /* InfoPlist.strings */,
+				922603271409B3540065F705 /* RHITMobileLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9265FE991409AB5C00AE406E = {
 			isa = PBXGroup;
 			children = (
 				9265FEAE1409AB5D00AE406E /* RHITMobile */,
 				9265FED61409AB5D00AE406E /* RHITMobileTests */,
+				9226031D1409B3540065F705 /* RHITMobileLogicTests */,
 				9265FEA71409AB5D00AE406E /* Frameworks */,
 				9265FEA51409AB5D00AE406E /* Products */,
 			);
@@ -120,6 +165,7 @@
 			children = (
 				9265FEA41409AB5D00AE406E /* RHITMobile.app */,
 				9265FECE1409AB5D00AE406E /* RHITMobileTests.octest */,
+				922603181409B3540065F705 /* RHITMobileLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,6 +234,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		922603171409B3540065F705 /* RHITMobileLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922603281409B3540065F705 /* Build configuration list for PBXNativeTarget "RHITMobileLogicTests" */;
+			buildPhases = (
+				922603131409B3540065F705 /* Sources */,
+				922603141409B3540065F705 /* Frameworks */,
+				922603151409B3540065F705 /* Resources */,
+				922603161409B3540065F705 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHITMobileLogicTests;
+			productName = RHITMobileLogicTests;
+			productReference = 922603181409B3540065F705 /* RHITMobileLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		9265FEA31409AB5D00AE406E /* RHITMobile */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9265FEE21409AB5D00AE406E /* Build configuration list for PBXNativeTarget "RHITMobile" */;
@@ -246,11 +310,21 @@
 			targets = (
 				9265FEA31409AB5D00AE406E /* RHITMobile */,
 				9265FECD1409AB5D00AE406E /* RHITMobileTests */,
+				922603171409B3540065F705 /* RHITMobileLogicTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		922603151409B3540065F705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922603221409B3540065F705 /* InfoPlist.strings in Resources */,
+				922603241409B3540065F705 /* RHITMobileLogicTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9265FEA21409AB5D00AE406E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +348,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		922603161409B3540065F705 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		9265FECC1409AB5D00AE406E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,6 +377,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		922603131409B3540065F705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922603261409B3540065F705 /* RHITMobileLogicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9265FEA01409AB5D00AE406E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,6 +415,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		922603201409B3540065F705 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				922603211409B3540065F705 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		9265FEB11409AB5D00AE406E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,6 +466,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		922603291409B3540065F705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHITMobileLogicTests/RHITMobileLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "RHITMobileLogicTests/RHITMobileLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9226032A1409B3540065F705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHITMobileLogicTests/RHITMobileLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "RHITMobileLogicTests/RHITMobileLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		9265FEE01409AB5D00AE406E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -465,6 +598,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		922603281409B3540065F705 /* Build configuration list for PBXNativeTarget "RHITMobileLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922603291409B3540065F705 /* Debug */,
+				9226032A1409B3540065F705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9265FE9E1409AB5C00AE406E /* Build configuration list for PBXProject "RHITMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
