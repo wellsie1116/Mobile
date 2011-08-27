@@ -15,6 +15,21 @@
 		922603221409B3540065F705 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 922603201409B3540065F705 /* InfoPlist.strings */; };
 		922603241409B3540065F705 /* RHITMobileLogicTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 922603231409B3540065F705 /* RHITMobileLogicTests.h */; };
 		922603261409B3540065F705 /* RHITMobileLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603251409B3540065F705 /* RHITMobileLogicTests.m */; };
+		9226032D1409B3890065F705 /* RHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9226032C1409B3890065F705 /* RHNode.m */; };
+		9226032E1409B3890065F705 /* RHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9226032C1409B3890065F705 /* RHNode.m */; };
+		9226032F1409B3890065F705 /* RHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9226032C1409B3890065F705 /* RHNode.m */; };
+		922603321409B3A20065F705 /* RHPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603311409B3A20065F705 /* RHPath.m */; };
+		922603331409B3A20065F705 /* RHPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603311409B3A20065F705 /* RHPath.m */; };
+		922603341409B3A20065F705 /* RHPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603311409B3A20065F705 /* RHPath.m */; };
+		922603371409B3B00065F705 /* RHEnclosure.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603361409B3B00065F705 /* RHEnclosure.m */; };
+		922603381409B3B00065F705 /* RHEnclosure.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603361409B3B00065F705 /* RHEnclosure.m */; };
+		922603391409B3B00065F705 /* RHEnclosure.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603361409B3B00065F705 /* RHEnclosure.m */; };
+		9226033C1409B3BE0065F705 /* RHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9226033B1409B3BE0065F705 /* RHLocation.m */; };
+		9226033D1409B3BE0065F705 /* RHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9226033B1409B3BE0065F705 /* RHLocation.m */; };
+		9226033E1409B3BE0065F705 /* RHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9226033B1409B3BE0065F705 /* RHLocation.m */; };
+		922603411409B3D30065F705 /* RHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603401409B3D30065F705 /* RHPerson.m */; };
+		922603421409B3D30065F705 /* RHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603401409B3D30065F705 /* RHPerson.m */; };
+		922603431409B3D30065F705 /* RHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 922603401409B3D30065F705 /* RHPerson.m */; };
 		9265FEA91409AB5D00AE406E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEA81409AB5D00AE406E /* UIKit.framework */; };
 		9265FEAB1409AB5D00AE406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAA1409AB5D00AE406E /* Foundation.framework */; };
 		9265FEAD1409AB5D00AE406E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */; };
@@ -53,6 +68,16 @@
 		922603231409B3540065F705 /* RHITMobileLogicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHITMobileLogicTests.h; sourceTree = "<group>"; };
 		922603251409B3540065F705 /* RHITMobileLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHITMobileLogicTests.m; sourceTree = "<group>"; };
 		922603271409B3540065F705 /* RHITMobileLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHITMobileLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		9226032B1409B3890065F705 /* RHNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNode.h; sourceTree = "<group>"; };
+		9226032C1409B3890065F705 /* RHNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNode.m; sourceTree = "<group>"; };
+		922603301409B3A20065F705 /* RHPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPath.h; sourceTree = "<group>"; };
+		922603311409B3A20065F705 /* RHPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPath.m; sourceTree = "<group>"; };
+		922603351409B3B00065F705 /* RHEnclosure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHEnclosure.h; sourceTree = "<group>"; };
+		922603361409B3B00065F705 /* RHEnclosure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHEnclosure.m; sourceTree = "<group>"; };
+		9226033A1409B3BE0065F705 /* RHLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLocation.h; sourceTree = "<group>"; };
+		9226033B1409B3BE0065F705 /* RHLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLocation.m; sourceTree = "<group>"; };
+		9226033F1409B3D30065F705 /* RHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPerson.h; sourceTree = "<group>"; };
+		922603401409B3D30065F705 /* RHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPerson.m; sourceTree = "<group>"; };
 		9265FEA41409AB5D00AE406E /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHITMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9265FEA81409AB5D00AE406E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9265FEAA1409AB5D00AE406E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -125,6 +150,16 @@
 		9226030C1409AE640065F705 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9226032B1409B3890065F705 /* RHNode.h */,
+				9226032C1409B3890065F705 /* RHNode.m */,
+				922603301409B3A20065F705 /* RHPath.h */,
+				922603311409B3A20065F705 /* RHPath.m */,
+				922603351409B3B00065F705 /* RHEnclosure.h */,
+				922603361409B3B00065F705 /* RHEnclosure.m */,
+				9226033A1409B3BE0065F705 /* RHLocation.h */,
+				9226033B1409B3BE0065F705 /* RHLocation.m */,
+				9226033F1409B3D30065F705 /* RHPerson.h */,
+				922603401409B3D30065F705 /* RHPerson.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -382,6 +417,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				922603261409B3540065F705 /* RHITMobileLogicTests.m in Sources */,
+				9226032F1409B3890065F705 /* RHNode.m in Sources */,
+				922603341409B3A20065F705 /* RHPath.m in Sources */,
+				922603391409B3B00065F705 /* RHEnclosure.m in Sources */,
+				9226033E1409B3BE0065F705 /* RHLocation.m in Sources */,
+				922603431409B3D30065F705 /* RHPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +433,11 @@
 				9265FEB91409AB5D00AE406E /* RHITMobileAppDelegate.m in Sources */,
 				9265FEBF1409AB5D00AE406E /* MapViewController.m in Sources */,
 				9265FEC21409AB5D00AE406E /* SearchViewController.m in Sources */,
+				9226032D1409B3890065F705 /* RHNode.m in Sources */,
+				922603321409B3A20065F705 /* RHPath.m in Sources */,
+				922603371409B3B00065F705 /* RHEnclosure.m in Sources */,
+				9226033C1409B3BE0065F705 /* RHLocation.m in Sources */,
+				922603411409B3D30065F705 /* RHPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +446,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9265FEDF1409AB5D00AE406E /* RHITMobileTests.m in Sources */,
+				9226032E1409B3890065F705 /* RHNode.m in Sources */,
+				922603331409B3A20065F705 /* RHPath.m in Sources */,
+				922603381409B3B00065F705 /* RHEnclosure.m in Sources */,
+				9226033D1409B3BE0065F705 /* RHLocation.m in Sources */,
+				922603421409B3D30065F705 /* RHPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
