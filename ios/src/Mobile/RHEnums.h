@@ -6,6 +6,8 @@
 //  Copyright 2011 Rose-Hulman Institute of Technology. All rights reserved.
 //
 
+/// Enum definitions for the RHIT Mobile Campus Directory project.
+
 #ifndef Mobile_RHEnums_h
 #define Mobile_RHEnums_h
 

@@ -15,10 +15,10 @@
 
 @interface RHLocation : NSObject
 
-/// The actual location nodes that represent this location.
+/// The actual RHNode objects that represent this location.
 @property (nonatomic, retain) NSArray *nodes; 
 
-/// Any additional locations that are enclosed by this location.
+/// Any additional RHLocation objects that are enclosed by this location.
 @property (nonatomic, retain) NSArray *enclosedLocations; 
 
 @end

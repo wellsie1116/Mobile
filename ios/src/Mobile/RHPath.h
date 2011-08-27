@@ -15,10 +15,10 @@
 
 @interface RHPath : NSObject
 
-/// First node that this path connects to
+/// First RHNode that this path connects to
 @property (nonatomic, retain) RHNode *node1;
 
-/// Second node that this path connects to
+/// Second RHNode that this path connects to
 @property (nonatomic, retain) RHNode *node2;
 
 /// What type of path this is (i.e. does this path contain stairs, elevator).
