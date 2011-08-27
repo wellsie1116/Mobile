@@ -21,4 +21,8 @@
 
 @implementation RHPath
 
+@synthesize node1;
+@synthesize node2;
+@synthesize pathType;
+
 @end

@@ -18,6 +18,7 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #import "RHEnums.h"
 
 /// Representation of a node, or single point in space.

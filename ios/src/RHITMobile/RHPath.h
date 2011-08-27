@@ -19,6 +19,20 @@
 
 #import <Foundation/Foundation.h>
 
+#import "RHEnums.h"
+#import "RHNode.h"
+
+/// Representation of a traversable connection between two RHNode objects.
+
 @interface RHPath : NSObject
+
+/// First RHNode that this path connects.
+@property (nonatomic, retain) RHNode *node1;
+
+/// Second RHNode that this path connects.
+@property (nonatomic, retain) RHNode *node2;
+
+/// Any special characteristics of this path.
+@property (nonatomic, assign) RHPathType pathType;
 
 @end
