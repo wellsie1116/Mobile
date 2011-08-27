@@ -14,10 +14,10 @@
 		9265FEB51409AB5D00AE406E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEB41409AB5D00AE406E /* main.m */; };
 		9265FEB91409AB5D00AE406E /* RHITMobileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */; };
 		9265FEBC1409AB5D00AE406E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9265FEBA1409AB5D00AE406E /* MainWindow.xib */; };
-		9265FEBF1409AB5D00AE406E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEBE1409AB5D00AE406E /* FirstViewController.m */; };
-		9265FEC21409AB5D00AE406E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEC11409AB5D00AE406E /* SecondViewController.m */; };
-		9265FEC51409AB5D00AE406E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9265FEC31409AB5D00AE406E /* FirstView.xib */; };
-		9265FEC81409AB5D00AE406E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9265FEC61409AB5D00AE406E /* SecondView.xib */; };
+		9265FEBF1409AB5D00AE406E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEBE1409AB5D00AE406E /* MapViewController.m */; };
+		9265FEC21409AB5D00AE406E /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEC11409AB5D00AE406E /* SearchViewController.m */; };
+		9265FEC51409AB5D00AE406E /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9265FEC31409AB5D00AE406E /* MapView.xib */; };
+		9265FEC81409AB5D00AE406E /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9265FEC61409AB5D00AE406E /* SearchView.xib */; };
 		9265FED01409AB5D00AE406E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FECF1409AB5D00AE406E /* SenTestingKit.framework */; };
 		9265FED11409AB5D00AE406E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEA81409AB5D00AE406E /* UIKit.framework */; };
 		9265FED21409AB5D00AE406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAA1409AB5D00AE406E /* Foundation.framework */; };
@@ -49,12 +49,12 @@
 		9265FEB71409AB5D00AE406E /* RHITMobileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHITMobileAppDelegate.h; sourceTree = "<group>"; };
 		9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHITMobileAppDelegate.m; sourceTree = "<group>"; };
 		9265FEBB1409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		9265FEBD1409AB5D00AE406E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		9265FEBE1409AB5D00AE406E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		9265FEC01409AB5D00AE406E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		9265FEC11409AB5D00AE406E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		9265FEC41409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		9265FEC71409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		9265FEBD1409AB5D00AE406E /* MapViewController.h */ = {isa = PBXFileReference; path = MapViewController.h; sourceTree = "<group>"; };
+		9265FEBE1409AB5D00AE406E /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		9265FEC01409AB5D00AE406E /* SearchViewController.h */ = {isa = PBXFileReference; path = SearchViewController.h; sourceTree = "<group>"; };
+		9265FEC11409AB5D00AE406E /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		9265FEC41409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MapView.xib; sourceTree = "<group>"; };
+		9265FEC71409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchView.xib; sourceTree = "<group>"; };
 		9265FECE1409AB5D00AE406E /* RHITMobileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHITMobileTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9265FECF1409AB5D00AE406E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9265FED81409AB5D00AE406E /* RHITMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHITMobileTests-Info.plist"; sourceTree = "<group>"; };
@@ -88,6 +88,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9226030B1409AC820065F705 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		9265FE991409AB5C00AE406E = {
 			isa = PBXGroup;
 			children = (
@@ -124,12 +131,12 @@
 				9265FEB71409AB5D00AE406E /* RHITMobileAppDelegate.h */,
 				9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */,
 				9265FEBA1409AB5D00AE406E /* MainWindow.xib */,
-				9265FEBD1409AB5D00AE406E /* FirstViewController.h */,
-				9265FEBE1409AB5D00AE406E /* FirstViewController.m */,
-				9265FEC01409AB5D00AE406E /* SecondViewController.h */,
-				9265FEC11409AB5D00AE406E /* SecondViewController.m */,
-				9265FEC31409AB5D00AE406E /* FirstView.xib */,
-				9265FEC61409AB5D00AE406E /* SecondView.xib */,
+				9265FEBD1409AB5D00AE406E /* MapViewController.h */,
+				9265FEBE1409AB5D00AE406E /* MapViewController.m */,
+				9265FEC01409AB5D00AE406E /* SearchViewController.h */,
+				9265FEC11409AB5D00AE406E /* SearchViewController.m */,
+				9265FEC31409AB5D00AE406E /* MapView.xib */,
+				9265FEC61409AB5D00AE406E /* SearchView.xib */,
 				9265FEAF1409AB5D00AE406E /* Supporting Files */,
 			);
 			path = RHITMobile;
@@ -138,6 +145,7 @@
 		9265FEAF1409AB5D00AE406E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9226030B1409AC820065F705 /* Images */,
 				9265FEB01409AB5D00AE406E /* RHITMobile-Info.plist */,
 				9265FEB11409AB5D00AE406E /* InfoPlist.strings */,
 				9265FEB41409AB5D00AE406E /* main.m */,
@@ -237,8 +245,8 @@
 			files = (
 				9265FEB31409AB5D00AE406E /* InfoPlist.strings in Resources */,
 				9265FEBC1409AB5D00AE406E /* MainWindow.xib in Resources */,
-				9265FEC51409AB5D00AE406E /* FirstView.xib in Resources */,
-				9265FEC81409AB5D00AE406E /* SecondView.xib in Resources */,
+				9265FEC51409AB5D00AE406E /* MapView.xib in Resources */,
+				9265FEC81409AB5D00AE406E /* SearchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +284,8 @@
 			files = (
 				9265FEB51409AB5D00AE406E /* main.m in Sources */,
 				9265FEB91409AB5D00AE406E /* RHITMobileAppDelegate.m in Sources */,
-				9265FEBF1409AB5D00AE406E /* FirstViewController.m in Sources */,
-				9265FEC21409AB5D00AE406E /* SecondViewController.m in Sources */,
+				9265FEBF1409AB5D00AE406E /* MapViewController.m in Sources */,
+				9265FEC21409AB5D00AE406E /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,20 +324,20 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		9265FEC31409AB5D00AE406E /* FirstView.xib */ = {
+		9265FEC31409AB5D00AE406E /* MapView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9265FEC41409AB5D00AE406E /* en */,
 			);
-			name = FirstView.xib;
+			name = MapView.xib;
 			sourceTree = "<group>";
 		};
-		9265FEC61409AB5D00AE406E /* SecondView.xib */ = {
+		9265FEC61409AB5D00AE406E /* SearchView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9265FEC71409AB5D00AE406E /* en */,
 			);
-			name = SecondView.xib;
+			name = SearchView.xib;
 			sourceTree = "<group>";
 		};
 		9265FED91409AB5D00AE406E /* InfoPlist.strings */ = {

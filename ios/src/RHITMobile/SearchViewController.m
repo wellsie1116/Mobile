@@ -1,14 +1,14 @@
 //
-//  FirstViewController.m
+//  SearchViewController.m
 //  RHITMobile
 //
 //  Created by Jimmy Theis on 8/27/11.
 //  Copyright 2011 Rose-Hulman Institute of Technology. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "SearchViewController.h"
 
-@implementation FirstViewController
+@implementation SearchViewController
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

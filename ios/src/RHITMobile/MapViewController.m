@@ -1,14 +1,14 @@
 //
-//  SecondViewController.m
+//  MapViewController.m
 //  RHITMobile
 //
 //  Created by Jimmy Theis on 8/27/11.
 //  Copyright 2011 Rose-Hulman Institute of Technology. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "MapViewController.h"
 
-@implementation SecondViewController
+@implementation MapViewController
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
