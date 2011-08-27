@@ -19,6 +19,19 @@
 
 #import <Foundation/Foundation.h>
 
+#import "RHLocation.h"
+
+/// Representation of a generic person.
+
 @interface RHPerson : NSObject
+
+/// RHLocation associated with this person.
+@property (nonatomic, retain) RHLocation *location;
+
+/// First name of this person.
+@property (nonatomic, retain) NSString *firstName;
+
+/// Last name of this person.
+@property (nonatomic, retain) NSString *lastName;
 
 @end

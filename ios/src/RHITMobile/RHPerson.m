@@ -21,4 +21,8 @@
 
 @implementation RHPerson
 
+@synthesize location;
+@synthesize firstName;
+@synthesize lastName;
+
 @end
