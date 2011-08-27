@@ -21,4 +21,7 @@
 
 @implementation RHEnclosure
 
+@synthesize internalNodes;
+@synthesize edgeNodes;
+
 @end

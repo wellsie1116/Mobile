@@ -18,7 +18,6 @@
 //
 
 #import "RHNode.h"
-#import "RHEnums.h"
 
 @implementation RHNode
 
