@@ -14,14 +14,23 @@
 @synthesize node2;
 @synthesize pathType;
 
-- (id)init
-{
+- (id) initWithNode1:(RHNode *)newNode1 
+               node2:(RHNode *)newNode2 
+            pathType:(RHPathType)newPathType {
     self = [super init];
     if (self) {
-        // Initialization code here.
+        self.node1 = newNode1;
+        self.node2 = newNode2;
+        self.pathType = newPathType;
     }
     
     return self;
+}
+
+- (void) dealloc {
+    [self.node1 release];
+    [self.node2 release];
+    [super dealloc];
 }
 
 @end

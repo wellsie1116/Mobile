@@ -24,4 +24,9 @@
 /// What type of path this is (i.e. does this path contain stairs, elevator).
 @property (nonatomic, assign) RHPathType pathType;
 
+/// Initialize with all properties.
+- (id) initWithNode1:(RHNode *)newNode1 
+               node2:(RHNode *)newNode2 
+            pathType:(RHPathType)newPathType;
+
 @end
