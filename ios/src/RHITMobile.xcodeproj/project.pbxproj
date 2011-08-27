@@ -49,9 +49,9 @@
 		9265FEB71409AB5D00AE406E /* RHITMobileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHITMobileAppDelegate.h; sourceTree = "<group>"; };
 		9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHITMobileAppDelegate.m; sourceTree = "<group>"; };
 		9265FEBB1409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		9265FEBD1409AB5D00AE406E /* MapViewController.h */ = {isa = PBXFileReference; path = MapViewController.h; sourceTree = "<group>"; };
+		9265FEBD1409AB5D00AE406E /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		9265FEBE1409AB5D00AE406E /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		9265FEC01409AB5D00AE406E /* SearchViewController.h */ = {isa = PBXFileReference; path = SearchViewController.h; sourceTree = "<group>"; };
+		9265FEC01409AB5D00AE406E /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		9265FEC11409AB5D00AE406E /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		9265FEC41409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MapView.xib; sourceTree = "<group>"; };
 		9265FEC71409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchView.xib; sourceTree = "<group>"; };
@@ -95,6 +95,13 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		9226030C1409AE640065F705 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		9265FE991409AB5C00AE406E = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +135,7 @@
 		9265FEAE1409AB5D00AE406E /* RHITMobile */ = {
 			isa = PBXGroup;
 			children = (
+				9226030C1409AE640065F705 /* Model */,
 				9265FEB71409AB5D00AE406E /* RHITMobileAppDelegate.h */,
 				9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */,
 				9265FEBA1409AB5D00AE406E /* MainWindow.xib */,
