@@ -27,6 +27,6 @@ typedef enum _RHPathType {
 @property (nonatomic, retain) RHNode *node2;
 
 /// What type of path this is (i.e. does this path contain stairs, elevator).
-@property (nonatomic, assign) RHPathType *pathType;
+@property (nonatomic, assign) RHPathType pathType;
 
 @end
