@@ -28,4 +28,10 @@
 /// Which floor the node is on
 @property (nonatomic, assign) RHFloor floor;
 
+/// Initialize with all properties.
+- (id)initWithLatitude:(NSDecimalNumber *)latutide
+             longitude:(NSDecimalNumber *)longitude
+               indoors:(BOOL)indoors
+                 floor:(RHFloor)floor;
+
 @end

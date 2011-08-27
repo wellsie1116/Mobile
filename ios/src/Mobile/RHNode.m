@@ -10,19 +10,29 @@
 
 @implementation RHNode
 
-@synthesize latitude;
-@synthesize longitude;
-@synthesize indoors;
-@synthesize floor;
+@synthesize latitude = latitude;
+@synthesize longitude = longitude;
+@synthesize indoors = indoors;
+@synthesize floor = floor;
 
-- (id)init
-{
+- (id)initWithLatitude:(NSDecimalNumber *)newLatitude
+             longitude:(NSDecimalNumber *)newLongitude
+               indoors:(BOOL)newIndoors 
+                 floor:(RHFloor) newFloor {
     self = [super init];
     if (self) {
-        // Initialization code here.
+        self.latitude = newLatitude;
+        self.longitude = newLongitude;
+        self.indoors = newIndoors;
+        self.floor = newFloor;
     }
     
     return self;
+}
+
+- (void) dealloc {
+    [latitude release];
+    [longitude release];
 }
 
 @end
