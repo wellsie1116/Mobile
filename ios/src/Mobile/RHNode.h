@@ -17,10 +17,10 @@
 @interface RHNode : NSObject
 
 /// Latutide coordinate of the Node
-@property (nonatomic, retain) NSDecimalNumber *latitude;
+@property (nonatomic, assign) double latitude;
 
 /// Longitude coordinate of the Node
-@property (nonatomic, retain) NSDecimalNumber *longitude;
+@property (nonatomic, assign) double longitude;
 
 /// Whether or not this node is an indoor location.
 @property (nonatomic, assign) BOOL indoors;
@@ -29,8 +29,8 @@
 @property (nonatomic, assign) RHFloor floor;
 
 /// Initialize with all properties.
-- (id)initWithLatitude:(NSDecimalNumber *)latutide
-             longitude:(NSDecimalNumber *)longitude
+- (id)initWithLatitude:(double)latutide
+             longitude:(double)longitude
                indoors:(BOOL)indoors
                  floor:(RHFloor)floor;
 

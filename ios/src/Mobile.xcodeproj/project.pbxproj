@@ -26,6 +26,11 @@
 		922E96531407800D00CC59B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 922E96511407800D00CC59B4 /* InfoPlist.strings */; };
 		922E96551407800D00CC59B4 /* MobileApplicationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 922E96541407800D00CC59B4 /* MobileApplicationTests.h */; };
 		922E96571407800D00CC59B4 /* MobileApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E96561407800D00CC59B4 /* MobileApplicationTests.m */; };
+		924273321409933300B0896E /* RHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E961814077CF100CC59B4 /* RHNode.m */; };
+		924273341409934200B0896E /* RHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E961B14077D0700CC59B4 /* RHLocation.m */; };
+		924273351409934200B0896E /* RHPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E961E14077D2600CC59B4 /* RHPath.m */; };
+		924273361409934200B0896E /* RHEnclosure.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E962114077D3200CC59B4 /* RHEnclosure.m */; };
+		924273371409934200B0896E /* RHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E962414077D4A00CC59B4 /* RHPerson.m */; };
 		92466B70140966CE000E15E0 /* tab-bar-map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92466B6F140966CE000E15E0 /* tab-bar-map-icon.png */; };
 		927602FA140778A200D50488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602F9140778A200D50488 /* UIKit.framework */; };
 		927602FC140778A200D50488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FB140778A200D50488 /* Foundation.framework */; };
@@ -39,6 +44,16 @@
 		92760316140778A300D50488 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92760314140778A300D50488 /* MapView.xib */; };
 		92760319140778A300D50488 /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92760317140778A300D50488 /* SearchView.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		920D4A5F1409869F006AA1D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 927602EC140778A200D50488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 927602F4140778A200D50488;
+			remoteInfo = Mobile;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		922E961714077CF100CC59B4 /* RHNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNode.h; sourceTree = "<group>"; };
@@ -290,6 +305,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				920D4A601409869F006AA1D8 /* PBXTargetDependency */,
 			);
 			name = MobileApplicationTests;
 			productName = MobileApplicationTests;
@@ -408,6 +424,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924273341409934200B0896E /* RHLocation.m in Sources */,
+				924273351409934200B0896E /* RHPath.m in Sources */,
+				924273361409934200B0896E /* RHEnclosure.m in Sources */,
+				924273371409934200B0896E /* RHPerson.m in Sources */,
+				924273321409933300B0896E /* RHNode.m in Sources */,
 				922E963F1407800100CC59B4 /* MobileLogicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +458,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		920D4A601409869F006AA1D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 927602F4140778A200D50488 /* Mobile */;
+			targetProxy = 920D4A5F1409869F006AA1D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		922E96391407800100CC59B4 /* InfoPlist.strings */ = {

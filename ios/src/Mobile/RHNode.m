@@ -15,8 +15,8 @@
 @synthesize indoors = indoors;
 @synthesize floor = floor;
 
-- (id)initWithLatitude:(NSDecimalNumber *)newLatitude
-             longitude:(NSDecimalNumber *)newLongitude
+- (id)initWithLatitude:(double)newLatitude
+             longitude:(double)newLongitude
                indoors:(BOOL)newIndoors 
                  floor:(RHFloor) newFloor {
     self = [super init];
@@ -28,12 +28,6 @@
     }
     
     return self;
-}
-
-- (void) dealloc {
-    [latitude release];
-    [longitude release];
-    [super dealloc];
 }
 
 @end
