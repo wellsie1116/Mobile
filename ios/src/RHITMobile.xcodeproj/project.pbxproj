@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9226030E1409AEF00065F705 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9226030D1409AEF00065F705 /* MapKit.framework */; };
 		9265FEA91409AB5D00AE406E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEA81409AB5D00AE406E /* UIKit.framework */; };
 		9265FEAB1409AB5D00AE406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAA1409AB5D00AE406E /* Foundation.framework */; };
 		9265FEAD1409AB5D00AE406E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9226030D1409AEF00065F705 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9265FEA41409AB5D00AE406E /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHITMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9265FEA81409AB5D00AE406E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9265FEAA1409AB5D00AE406E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,6 +73,7 @@
 				9265FEA91409AB5D00AE406E /* UIKit.framework in Frameworks */,
 				9265FEAB1409AB5D00AE406E /* Foundation.framework in Frameworks */,
 				9265FEAD1409AB5D00AE406E /* CoreGraphics.framework in Frameworks */,
+				9226030E1409AEF00065F705 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +127,7 @@
 		9265FEA71409AB5D00AE406E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9226030D1409AEF00065F705 /* MapKit.framework */,
 				9265FEA81409AB5D00AE406E /* UIKit.framework */,
 				9265FEAA1409AB5D00AE406E /* Foundation.framework */,
 				9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */,
