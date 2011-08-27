@@ -1,5 +1,5 @@
 //
-//  RHNode.h
+//  RHEnums.h
 //  RHIT Mobile Campus Directory
 //
 //  Copyright 2011 Rose-Hulman Institute of Technology
@@ -17,23 +17,28 @@
 //  limitations under the License.
 //
 
-#import <Foundation/Foundation.h>
-#import "RHEnums.h"
+/// Various enumerations pertaining to the model layer.
 
-/// Representation of a node, or single point in space.
+#ifndef RHITMobile_Header_h
+#define RHITMobile_Header_h
 
-@interface RHNode : NSObject
+/// Represents the notion of floors in a building.
+typedef enum _RHFloor {
+    RHFLOOR_NONE,
+    RHFLOOR_SUBBASEMENT,
+    RHFLOOR_BASEMENT,
+    RHFLOOR_FIRST,
+    RHFLOOR_SECOND,
+    RHFLOOR_THIRD,
+    RHFLOOR_FOURTH,
+    RHFLOOR_FIFTH
+} RHFloor;
 
-/// Latitude coordinate for this node.
-@property (nonatomic, assign) double latitude;
+/// Represents the notion of how traversable a path is
+typedef enum _RHPathType {
+    RHPATHTYPE_STANDARD,
+    RHPATHTYPE_STAIRS,
+    RHPATHTYPE_ELEVATOR
+} RHPathType;
 
-/// Longitude coordinate for this node.
-@property (nonatomic, assign) double longitude;
-
-/// Whether or not this node is indoors.
-@property (nonatomic, assign) BOOL indoors;
-
-/// Which floor this node is on, if applicable.
-@property (nonatomic, assign) RHFloor floor;
-
-@end
+#endif

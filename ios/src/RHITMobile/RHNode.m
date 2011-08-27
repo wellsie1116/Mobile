@@ -18,7 +18,13 @@
 //
 
 #import "RHNode.h"
+#import "RHEnums.h"
 
 @implementation RHNode
+
+@synthesize latitude;
+@synthesize longitude;
+@synthesize indoors;
+@synthesize floor;
 
 @end
