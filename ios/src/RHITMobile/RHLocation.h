@@ -19,6 +19,15 @@
 
 #import <Foundation/Foundation.h>
 
+/// Representation of a canonical location, which may be more than a specific
+/// point in space.
+
 @interface RHLocation : NSObject
+
+/// RHNode objects that make up this location.
+@property (nonatomic, retain) NSArray *nodes;
+
+/// RHLocation objects that are part of or enclosed by this location.
+@property (nonatomic, retain) NSArray *enclosedLocations;
 
 @end
