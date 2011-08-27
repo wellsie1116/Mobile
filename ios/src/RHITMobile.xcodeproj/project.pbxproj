@@ -461,6 +461,7 @@
 				9265FEE41409AB5D00AE406E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9265FEE51409AB5D00AE406E /* Build configuration list for PBXNativeTarget "RHITMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				9265FEE71409AB5D00AE406E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
