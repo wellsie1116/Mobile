@@ -10,6 +10,10 @@
 
 @implementation RHPath
 
+@synthesize node1;
+@synthesize node2;
+@synthesize pathType;
+
 - (id)init
 {
     self = [super init];
