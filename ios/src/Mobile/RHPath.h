@@ -11,12 +11,7 @@
 
 #import <Foundation/Foundation.h>
 #import "RHNode.h"
-
-typedef enum _RHPathType {
-    PATHTYPE_STANDARD,
-    PATHTYPE_STAIRS,
-    PATHTYPE_ELEVATOR
-} RHPathType;
+#import "RHEnums.h"
 
 @interface RHPath : NSObject
 

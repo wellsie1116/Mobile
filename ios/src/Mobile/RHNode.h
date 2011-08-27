@@ -12,15 +12,7 @@
 /// case: a building block for more intuitive models.
 
 #import <Foundation/Foundation.h>
-
-/// An enum for floors
-typedef enum _RHFloor {
-    FLOOR_SUBBASEMENT,
-    FLOOR_BASEMENT,
-    FLOOR_FIRST,
-    FLOOR_SECOND,
-    FLOOR_THIRD
-} RHFloor;
+#import "RHEnums.h"
 
 @interface RHNode : NSObject
 

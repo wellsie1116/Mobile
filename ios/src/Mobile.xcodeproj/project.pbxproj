@@ -80,6 +80,7 @@
 		92760312140778A300D50488 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		92760315140778A300D50488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MapView.xib; sourceTree = "<group>"; };
 		92760318140778A300D50488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchView.xib; sourceTree = "<group>"; };
+		927DD7691408D35900829A67 /* RHEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHEnums.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +132,7 @@
 				922E962114077D3200CC59B4 /* RHEnclosure.m */,
 				922E962314077D4A00CC59B4 /* RHPerson.h */,
 				922E962414077D4A00CC59B4 /* RHPerson.m */,
+				927DD7691408D35900829A67 /* RHEnums.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
