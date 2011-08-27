@@ -10,6 +10,9 @@
 
 @implementation RHLocation
 
+@synthesize nodes;
+@synthesize enclosedLocations;
+
 - (id)init
 {
     self = [super init];

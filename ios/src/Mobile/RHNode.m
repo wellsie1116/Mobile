@@ -10,6 +10,11 @@
 
 @implementation RHNode
 
+@synthesize latitude;
+@synthesize longitude;
+@synthesize indoors;
+@synthesize floor;
+
 - (id)init
 {
     self = [super init];

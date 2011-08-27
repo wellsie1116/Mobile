@@ -63,7 +63,7 @@
 		922E96541407800D00CC59B4 /* MobileApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileApplicationTests.h; sourceTree = "<group>"; };
 		922E96561407800D00CC59B4 /* MobileApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileApplicationTests.m; sourceTree = "<group>"; };
 		922E96581407800D00CC59B4 /* MobileApplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
-		927602F5140778A200D50488 /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = RHITMobile.app; path = Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927602F5140778A200D50488 /* Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927602F9140778A200D50488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		927602FB140778A200D50488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		927602FD140778A200D50488 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -196,7 +196,7 @@
 		927602F6140778A200D50488 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				927602F5140778A200D50488 /* RHITMobile.app */,
+				927602F5140778A200D50488 /* Mobile.app */,
 				922E96301407800100CC59B4 /* MobileLogicTests.octest */,
 				922E96491407800D00CC59B4 /* MobileApplicationTests.octest */,
 			);
@@ -297,7 +297,7 @@
 			);
 			name = Mobile;
 			productName = Mobile;
-			productReference = 927602F5140778A200D50488 /* RHITMobile.app */;
+			productReference = 927602F5140778A200D50488 /* Mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -610,6 +610,7 @@
 				922E96431407800100CC59B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		922E96591407800D00CC59B4 /* Build configuration list for PBXNativeTarget "MobileApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +619,7 @@
 				922E965B1407800D00CC59B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		927602EF140778A200D50488 /* Build configuration list for PBXProject "Mobile" */ = {
 			isa = XCConfigurationList;
