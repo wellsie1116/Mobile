@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9265FEA91409AB5D00AE406E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEA81409AB5D00AE406E /* UIKit.framework */; };
+		9265FEAB1409AB5D00AE406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAA1409AB5D00AE406E /* Foundation.framework */; };
+		9265FEAD1409AB5D00AE406E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */; };
+		9265FEB31409AB5D00AE406E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9265FEB11409AB5D00AE406E /* InfoPlist.strings */; };
+		9265FEB51409AB5D00AE406E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEB41409AB5D00AE406E /* main.m */; };
+		9265FEB91409AB5D00AE406E /* RHITMobileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */; };
+		9265FEBC1409AB5D00AE406E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9265FEBA1409AB5D00AE406E /* MainWindow.xib */; };
+		9265FEBF1409AB5D00AE406E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEBE1409AB5D00AE406E /* FirstViewController.m */; };
+		9265FEC21409AB5D00AE406E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEC11409AB5D00AE406E /* SecondViewController.m */; };
+		9265FEC51409AB5D00AE406E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9265FEC31409AB5D00AE406E /* FirstView.xib */; };
+		9265FEC81409AB5D00AE406E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9265FEC61409AB5D00AE406E /* SecondView.xib */; };
+		9265FED01409AB5D00AE406E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FECF1409AB5D00AE406E /* SenTestingKit.framework */; };
+		9265FED11409AB5D00AE406E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEA81409AB5D00AE406E /* UIKit.framework */; };
+		9265FED21409AB5D00AE406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAA1409AB5D00AE406E /* Foundation.framework */; };
+		9265FED31409AB5D00AE406E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */; };
+		9265FEDB1409AB5D00AE406E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9265FED91409AB5D00AE406E /* InfoPlist.strings */; };
+		9265FEDD1409AB5D00AE406E /* RHITMobileTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9265FEDC1409AB5D00AE406E /* RHITMobileTests.h */; };
+		9265FEDF1409AB5D00AE406E /* RHITMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265FEDE1409AB5D00AE406E /* RHITMobileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9265FED41409AB5D00AE406E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9265FE9B1409AB5C00AE406E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9265FEA31409AB5D00AE406E;
+			remoteInfo = RHITMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9265FEA41409AB5D00AE406E /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHITMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9265FEA81409AB5D00AE406E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9265FEAA1409AB5D00AE406E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9265FEB01409AB5D00AE406E /* RHITMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHITMobile-Info.plist"; sourceTree = "<group>"; };
+		9265FEB21409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9265FEB41409AB5D00AE406E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9265FEB61409AB5D00AE406E /* RHITMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHITMobile-Prefix.pch"; sourceTree = "<group>"; };
+		9265FEB71409AB5D00AE406E /* RHITMobileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHITMobileAppDelegate.h; sourceTree = "<group>"; };
+		9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHITMobileAppDelegate.m; sourceTree = "<group>"; };
+		9265FEBB1409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9265FEBD1409AB5D00AE406E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9265FEBE1409AB5D00AE406E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9265FEC01409AB5D00AE406E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9265FEC11409AB5D00AE406E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9265FEC41409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		9265FEC71409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		9265FECE1409AB5D00AE406E /* RHITMobileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHITMobileTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9265FECF1409AB5D00AE406E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9265FED81409AB5D00AE406E /* RHITMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHITMobileTests-Info.plist"; sourceTree = "<group>"; };
+		9265FEDA1409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9265FEDC1409AB5D00AE406E /* RHITMobileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHITMobileTests.h; sourceTree = "<group>"; };
+		9265FEDE1409AB5D00AE406E /* RHITMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHITMobileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9265FEA11409AB5D00AE406E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265FEA91409AB5D00AE406E /* UIKit.framework in Frameworks */,
+				9265FEAB1409AB5D00AE406E /* Foundation.framework in Frameworks */,
+				9265FEAD1409AB5D00AE406E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9265FECA1409AB5D00AE406E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265FED01409AB5D00AE406E /* SenTestingKit.framework in Frameworks */,
+				9265FED11409AB5D00AE406E /* UIKit.framework in Frameworks */,
+				9265FED21409AB5D00AE406E /* Foundation.framework in Frameworks */,
+				9265FED31409AB5D00AE406E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9265FE991409AB5C00AE406E = {
+			isa = PBXGroup;
+			children = (
+				9265FEAE1409AB5D00AE406E /* RHITMobile */,
+				9265FED61409AB5D00AE406E /* RHITMobileTests */,
+				9265FEA71409AB5D00AE406E /* Frameworks */,
+				9265FEA51409AB5D00AE406E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9265FEA51409AB5D00AE406E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9265FEA41409AB5D00AE406E /* RHITMobile.app */,
+				9265FECE1409AB5D00AE406E /* RHITMobileTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9265FEA71409AB5D00AE406E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9265FEA81409AB5D00AE406E /* UIKit.framework */,
+				9265FEAA1409AB5D00AE406E /* Foundation.framework */,
+				9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */,
+				9265FECF1409AB5D00AE406E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9265FEAE1409AB5D00AE406E /* RHITMobile */ = {
+			isa = PBXGroup;
+			children = (
+				9265FEB71409AB5D00AE406E /* RHITMobileAppDelegate.h */,
+				9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */,
+				9265FEBA1409AB5D00AE406E /* MainWindow.xib */,
+				9265FEBD1409AB5D00AE406E /* FirstViewController.h */,
+				9265FEBE1409AB5D00AE406E /* FirstViewController.m */,
+				9265FEC01409AB5D00AE406E /* SecondViewController.h */,
+				9265FEC11409AB5D00AE406E /* SecondViewController.m */,
+				9265FEC31409AB5D00AE406E /* FirstView.xib */,
+				9265FEC61409AB5D00AE406E /* SecondView.xib */,
+				9265FEAF1409AB5D00AE406E /* Supporting Files */,
+			);
+			path = RHITMobile;
+			sourceTree = "<group>";
+		};
+		9265FEAF1409AB5D00AE406E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9265FEB01409AB5D00AE406E /* RHITMobile-Info.plist */,
+				9265FEB11409AB5D00AE406E /* InfoPlist.strings */,
+				9265FEB41409AB5D00AE406E /* main.m */,
+				9265FEB61409AB5D00AE406E /* RHITMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9265FED61409AB5D00AE406E /* RHITMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				9265FEDC1409AB5D00AE406E /* RHITMobileTests.h */,
+				9265FEDE1409AB5D00AE406E /* RHITMobileTests.m */,
+				9265FED71409AB5D00AE406E /* Supporting Files */,
+			);
+			path = RHITMobileTests;
+			sourceTree = "<group>";
+		};
+		9265FED71409AB5D00AE406E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9265FED81409AB5D00AE406E /* RHITMobileTests-Info.plist */,
+				9265FED91409AB5D00AE406E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9265FEA31409AB5D00AE406E /* RHITMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9265FEE21409AB5D00AE406E /* Build configuration list for PBXNativeTarget "RHITMobile" */;
+			buildPhases = (
+				9265FEA01409AB5D00AE406E /* Sources */,
+				9265FEA11409AB5D00AE406E /* Frameworks */,
+				9265FEA21409AB5D00AE406E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHITMobile;
+			productName = RHITMobile;
+			productReference = 9265FEA41409AB5D00AE406E /* RHITMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9265FECD1409AB5D00AE406E /* RHITMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9265FEE51409AB5D00AE406E /* Build configuration list for PBXNativeTarget "RHITMobileTests" */;
+			buildPhases = (
+				9265FEC91409AB5D00AE406E /* Sources */,
+				9265FECA1409AB5D00AE406E /* Frameworks */,
+				9265FECB1409AB5D00AE406E /* Resources */,
+				9265FECC1409AB5D00AE406E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9265FED51409AB5D00AE406E /* PBXTargetDependency */,
+			);
+			name = RHITMobileTests;
+			productName = RHITMobileTests;
+			productReference = 9265FECE1409AB5D00AE406E /* RHITMobileTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9265FE9B1409AB5C00AE406E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Rose-Hulman Institute of Technology";
+			};
+			buildConfigurationList = 9265FE9E1409AB5C00AE406E /* Build configuration list for PBXProject "RHITMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9265FE991409AB5C00AE406E;
+			productRefGroup = 9265FEA51409AB5D00AE406E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9265FEA31409AB5D00AE406E /* RHITMobile */,
+				9265FECD1409AB5D00AE406E /* RHITMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9265FEA21409AB5D00AE406E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265FEB31409AB5D00AE406E /* InfoPlist.strings in Resources */,
+				9265FEBC1409AB5D00AE406E /* MainWindow.xib in Resources */,
+				9265FEC51409AB5D00AE406E /* FirstView.xib in Resources */,
+				9265FEC81409AB5D00AE406E /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9265FECB1409AB5D00AE406E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265FEDB1409AB5D00AE406E /* InfoPlist.strings in Resources */,
+				9265FEDD1409AB5D00AE406E /* RHITMobileTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9265FECC1409AB5D00AE406E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9265FEA01409AB5D00AE406E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265FEB51409AB5D00AE406E /* main.m in Sources */,
+				9265FEB91409AB5D00AE406E /* RHITMobileAppDelegate.m in Sources */,
+				9265FEBF1409AB5D00AE406E /* FirstViewController.m in Sources */,
+				9265FEC21409AB5D00AE406E /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9265FEC91409AB5D00AE406E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265FEDF1409AB5D00AE406E /* RHITMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9265FED51409AB5D00AE406E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9265FEA31409AB5D00AE406E /* RHITMobile */;
+			targetProxy = 9265FED41409AB5D00AE406E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9265FEB11409AB5D00AE406E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265FEB21409AB5D00AE406E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9265FEBA1409AB5D00AE406E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265FEBB1409AB5D00AE406E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9265FEC31409AB5D00AE406E /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265FEC41409AB5D00AE406E /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		9265FEC61409AB5D00AE406E /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265FEC71409AB5D00AE406E /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		9265FED91409AB5D00AE406E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265FEDA1409AB5D00AE406E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9265FEE01409AB5D00AE406E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9265FEE11409AB5D00AE406E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9265FEE31409AB5D00AE406E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHITMobile/RHITMobile-Prefix.pch";
+				INFOPLIST_FILE = "RHITMobile/RHITMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9265FEE41409AB5D00AE406E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHITMobile/RHITMobile-Prefix.pch";
+				INFOPLIST_FILE = "RHITMobile/RHITMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9265FEE61409AB5D00AE406E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHITMobile.app/RHITMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHITMobile/RHITMobile-Prefix.pch";
+				INFOPLIST_FILE = "RHITMobileTests/RHITMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9265FEE71409AB5D00AE406E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHITMobile.app/RHITMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHITMobile/RHITMobile-Prefix.pch";
+				INFOPLIST_FILE = "RHITMobileTests/RHITMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9265FE9E1409AB5C00AE406E /* Build configuration list for PBXProject "RHITMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9265FEE01409AB5D00AE406E /* Debug */,
+				9265FEE11409AB5D00AE406E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9265FEE21409AB5D00AE406E /* Build configuration list for PBXNativeTarget "RHITMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9265FEE31409AB5D00AE406E /* Debug */,
+				9265FEE41409AB5D00AE406E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9265FEE51409AB5D00AE406E /* Build configuration list for PBXNativeTarget "RHITMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9265FEE61409AB5D00AE406E /* Debug */,
+				9265FEE71409AB5D00AE406E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9265FE9B1409AB5C00AE406E /* Project object */;
+}
