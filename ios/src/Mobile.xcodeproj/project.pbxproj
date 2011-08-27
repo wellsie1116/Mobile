@@ -26,6 +26,7 @@
 		922E96531407800D00CC59B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 922E96511407800D00CC59B4 /* InfoPlist.strings */; };
 		922E96551407800D00CC59B4 /* MobileApplicationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 922E96541407800D00CC59B4 /* MobileApplicationTests.h */; };
 		922E96571407800D00CC59B4 /* MobileApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922E96561407800D00CC59B4 /* MobileApplicationTests.m */; };
+		92466B70140966CE000E15E0 /* tab-bar-map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92466B6F140966CE000E15E0 /* tab-bar-map-icon.png */; };
 		927602FA140778A200D50488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602F9140778A200D50488 /* UIKit.framework */; };
 		927602FC140778A200D50488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FB140778A200D50488 /* Foundation.framework */; };
 		927602FE140778A200D50488 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927602FD140778A200D50488 /* CoreGraphics.framework */; };
@@ -63,6 +64,7 @@
 		922E96541407800D00CC59B4 /* MobileApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileApplicationTests.h; sourceTree = "<group>"; };
 		922E96561407800D00CC59B4 /* MobileApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileApplicationTests.m; sourceTree = "<group>"; };
 		922E96581407800D00CC59B4 /* MobileApplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
+		92466B6F140966CE000E15E0 /* tab-bar-map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-bar-map-icon.png"; sourceTree = "<group>"; };
 		927602F5140778A200D50488 /* Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927602F9140778A200D50488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		927602FB140778A200D50488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -184,6 +186,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		92466B6E140966B4000E15E0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				92466B6F140966CE000E15E0 /* tab-bar-map-icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		927602EA140778A200D50488 = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +248,7 @@
 		92760300140778A200D50488 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92466B6E140966B4000E15E0 /* Images */,
 				92760301140778A200D50488 /* Mobile-Info.plist */,
 				92760302140778A200D50488 /* InfoPlist.strings */,
 				92760305140778A200D50488 /* main.m */,
@@ -356,6 +367,7 @@
 				9276030D140778A300D50488 /* MainWindow.xib in Resources */,
 				92760316140778A300D50488 /* MapView.xib in Resources */,
 				92760319140778A300D50488 /* SearchView.xib in Resources */,
+				92466B70140966CE000E15E0 /* tab-bar-map-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
