@@ -25,8 +25,10 @@
 @interface RHITMobileAppDelegate : NSObject
 <UIApplicationDelegate, UITabBarControllerDelegate>
 
+/// Current window.
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
+/// Main tab bar.
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
 @end

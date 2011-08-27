@@ -17,6 +17,8 @@
 //  limitations under the License.
 //
 
+/// View controller for the search portion of the application
+
 #import <UIKit/UIKit.h>
 
 @interface SearchViewController : UIViewController

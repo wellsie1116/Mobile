@@ -17,6 +17,8 @@
 //  limitations under the License.
 //
 
+/// View controller for the map portion of the application.
+
 #import <UIKit/UIKit.h>
 
 @interface MapViewController : UIViewController
