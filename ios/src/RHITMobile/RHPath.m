@@ -25,8 +25,8 @@
 @synthesize node2;
 @synthesize pathType;
 
-- (RHPath *) initWithNode1:(RHNode *)newNode1
-                     node2:(RHNode *)newNode2
+- (RHPath *) initWithNode1:(RHNavigationNode *)newNode1
+                     node2:(RHNavigationNode *)newNode2
                   pathType:(RHPathType)newPathType {
     self = [super init];
     self.node1 = newNode1;

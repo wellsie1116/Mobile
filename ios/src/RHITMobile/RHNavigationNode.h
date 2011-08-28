@@ -17,9 +17,9 @@
 @property (nonatomic, assign) RHFloor floor;
 
 /// Initialize with all properties.
-- (RHNode *) initWithLatitude:(double)latitude 
-                    longitude:(double)longitude 
-                      indoors:(BOOL)indoors 
-                        floor:(RHFloor)floor;
+- (RHNavigationNode *) initWithLatitude:(double)latitude 
+                              longitude:(double)longitude 
+                                indoors:(BOOL)indoors 
+                                  floor:(RHFloor)floor;
 
 @end

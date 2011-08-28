@@ -22,15 +22,15 @@
 @implementation RHPathTests
 
 - (void) testInitWithAllProperties {
-    RHNode *node1 = [[RHNode alloc] initWithLatitude:1 
-                                           longitude:2];
-    RHNode *node2 = [[RHNode alloc] initWithLatitude:3 
-                                           longitude:4];
+    RHNavigationNode *node1 = [[RHNavigationNode alloc] initWithLatitude:1 
+                                           longitude:2 indoors:YES floor:RHFLOOR_FIRST];
+    RHNavigationNode *node2 = [[RHNavigationNode alloc] initWithLatitude:3 
+                                           longitude:4 indoors:NO floor:RHFLOOR_SECOND];
     RHPath *path = [[RHPath alloc] initWithNode1:node1
                                            node2:node2
                                         pathType:RHPATHTYPE_STANDARD];
     STAssertEquals(path.node1, node1, @"RHPath.node1 not set correctly");
-    STAssertEquals(path.node2, node2, @"RHPath.node2    not set correctly");
+    STAssertEquals(path.node2, node2, @"RHPath.node2 not set correctly");
     STAssertEquals(path.pathType, RHPATHTYPE_STANDARD,
                    @"RHPath.pathType not set properly");
 }
