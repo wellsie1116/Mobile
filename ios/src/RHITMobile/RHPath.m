@@ -25,4 +25,20 @@
 @synthesize node2;
 @synthesize pathType;
 
+- (RHPath *) initWithNode1:(RHNode *)newNode1
+                     node2:(RHNode *)newNode2
+                  pathType:(RHPathType)newPathType {
+    self = [super init];
+    self.node1 = newNode1;
+    self.node2 = newNode2;
+    self.pathType = pathType;
+    return self;
+}
+
+- (void) dealloc {
+    [self.node1 release];
+    [self.node2 release];
+    [super dealloc];
+}
+
 @end

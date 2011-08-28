@@ -35,4 +35,9 @@
 /// Any special characteristics of this path.
 @property (nonatomic, assign) RHPathType pathType;
 
+/// Initialize with all properties
+- (RHPath *) initWithNode1:(RHNode *)node1
+                     node2:(RHNode *)node2
+                  pathType:(RHPathType)pathType;
+
 @end
