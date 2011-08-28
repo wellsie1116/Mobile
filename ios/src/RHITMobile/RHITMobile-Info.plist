@@ -11,7 +11,12 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>launch-icon-large</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>launch-icon-small.png</string>
+		<string>launch-icon-large.png</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>edu.rosehulman.ios.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -35,8 +40,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UTExportedTypeDeclarations</key>
 	<array/>
