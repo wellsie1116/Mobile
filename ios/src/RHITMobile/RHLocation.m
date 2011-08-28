@@ -21,7 +21,8 @@
 
 @implementation RHLocation
 
-@synthesize nodes;
+@synthesize navigationNodes;
+@synthesize boundaryNodes;
 @synthesize enclosedLocations;
 
 @end

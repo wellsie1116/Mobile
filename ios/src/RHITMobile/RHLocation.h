@@ -24,8 +24,11 @@
 
 @interface RHLocation : NSObject
 
-/// RHNode objects that make up this location.
-@property (nonatomic, retain) NSArray *nodes;
+/// RHNavigationNode objects that make up this location.
+@property (nonatomic, retain) NSArray *navigationNodes;
+
+/// RHBoundaryNode objects that define the border of this location.
+@property (nonatomic, retain) NSArray *boundaryNodes;
 
 /// RHLocation objects that are part of or enclosed by this location.
 @property (nonatomic, retain) NSArray *enclosedLocations;
