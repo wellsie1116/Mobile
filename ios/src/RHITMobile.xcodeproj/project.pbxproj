@@ -23,6 +23,10 @@
 		9226035A1409C9680065F705 /* launch-icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 922603591409C9680065F705 /* launch-icon-small.png */; };
 		924E754D140ACC9A001DFC4C /* tab-bar-map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 924E754C140ACC9A001DFC4C /* tab-bar-map-icon.png */; };
 		924E7550140ADA56001DFC4C /* RHPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E754F140ADA56001DFC4C /* RHPathTests.m */; };
+		924E7553140ADCA0001DFC4C /* RHNavigationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E7552140ADCA0001DFC4C /* RHNavigationNode.m */; };
+		924E7554140ADCA0001DFC4C /* RHNavigationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E7552140ADCA0001DFC4C /* RHNavigationNode.m */; };
+		924E7557140ADCD7001DFC4C /* RHBoundaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E7556140ADCD7001DFC4C /* RHBoundaryNode.m */; };
+		924E7558140ADCD7001DFC4C /* RHBoundaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E7556140ADCD7001DFC4C /* RHBoundaryNode.m */; };
 		9265FEA91409AB5D00AE406E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEA81409AB5D00AE406E /* UIKit.framework */; };
 		9265FEAB1409AB5D00AE406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAA1409AB5D00AE406E /* Foundation.framework */; };
 		9265FEAD1409AB5D00AE406E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */; };
@@ -71,6 +75,10 @@
 		924E754C140ACC9A001DFC4C /* tab-bar-map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-bar-map-icon.png"; sourceTree = "<group>"; };
 		924E754E140ADA56001DFC4C /* RHPathTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPathTests.h; sourceTree = "<group>"; };
 		924E754F140ADA56001DFC4C /* RHPathTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPathTests.m; sourceTree = "<group>"; };
+		924E7551140ADCA0001DFC4C /* RHNavigationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNavigationNode.h; sourceTree = "<group>"; };
+		924E7552140ADCA0001DFC4C /* RHNavigationNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNavigationNode.m; sourceTree = "<group>"; };
+		924E7555140ADCD7001DFC4C /* RHBoundaryNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHBoundaryNode.h; sourceTree = "<group>"; };
+		924E7556140ADCD7001DFC4C /* RHBoundaryNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHBoundaryNode.m; sourceTree = "<group>"; };
 		9265FEA41409AB5D00AE406E /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHITMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9265FEA81409AB5D00AE406E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9265FEAA1409AB5D00AE406E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -142,6 +150,10 @@
 				9226033F1409B3D30065F705 /* RHPerson.h */,
 				922603401409B3D30065F705 /* RHPerson.m */,
 				922603441409B4890065F705 /* RHEnums.h */,
+				924E7551140ADCA0001DFC4C /* RHNavigationNode.h */,
+				924E7552140ADCA0001DFC4C /* RHNavigationNode.m */,
+				924E7555140ADCD7001DFC4C /* RHBoundaryNode.h */,
+				924E7556140ADCD7001DFC4C /* RHBoundaryNode.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -366,6 +378,8 @@
 				922603371409B3B00065F705 /* RHEnclosure.m in Sources */,
 				9226033C1409B3BE0065F705 /* RHLocation.m in Sources */,
 				922603411409B3D30065F705 /* RHPerson.m in Sources */,
+				924E7553140ADCA0001DFC4C /* RHNavigationNode.m in Sources */,
+				924E7557140ADCD7001DFC4C /* RHBoundaryNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +394,8 @@
 				922603421409B3D30065F705 /* RHPerson.m in Sources */,
 				9226034E1409BD910065F705 /* RHNodeTests.m in Sources */,
 				924E7550140ADA56001DFC4C /* RHPathTests.m in Sources */,
+				924E7554140ADCA0001DFC4C /* RHNavigationNode.m in Sources */,
+				924E7558140ADCD7001DFC4C /* RHBoundaryNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

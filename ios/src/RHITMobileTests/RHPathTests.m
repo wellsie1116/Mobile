@@ -23,13 +23,9 @@
 
 - (void) testInitWithAllProperties {
     RHNode *node1 = [[RHNode alloc] initWithLatitude:1 
-                                           longitude:2 
-                                             indoors:YES 
-                                               floor:RHFLOOR_FIRST];
+                                           longitude:2];
     RHNode *node2 = [[RHNode alloc] initWithLatitude:3 
-                                           longitude:4 
-                                             indoors:NO 
-                                               floor:RHFLOOR_SECOND];
+                                           longitude:4];
     RHPath *path = [[RHPath alloc] initWithNode1:node1
                                            node2:node2
                                         pathType:RHPATHTYPE_STANDARD];

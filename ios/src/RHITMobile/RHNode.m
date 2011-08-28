@@ -23,20 +23,14 @@
 
 @synthesize latitude;
 @synthesize longitude;
-@synthesize indoors;
-@synthesize floor;
 
 - (RHNode *) initWithLatitude:(double)newLatitude 
-                    longitude:(double)newLongitude 
-                      indoors:(BOOL)newIndoors 
-                        floor:(RHFloor)newFloor {
+                    longitude:(double)newLongitude {
     self = (RHNode *)[super init];
     
     if (self) {
         self.latitude = newLatitude;
         self.longitude = newLongitude;
-        self.indoors = newIndoors;
-        self.floor = newFloor;
     }
     
     return self;

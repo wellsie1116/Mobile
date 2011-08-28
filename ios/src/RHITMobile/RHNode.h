@@ -21,7 +21,9 @@
 
 #import "RHEnums.h"
 
-/// Representation of a node, or single point in space.
+/// Representation of a node, or single point in space. RHNode is not meant
+/// to be used directly, but rather to be subclassed, specifically into
+/// RHNavigationNode and RHBoundaryNode.
 
 @interface RHNode : NSObject
 
@@ -31,16 +33,8 @@
 /// Longitude coordinate for this node.
 @property (nonatomic, assign) double longitude;
 
-/// Whether or not this node is indoors.
-@property (nonatomic, assign) BOOL indoors;
-
-/// Which floor this node is on, if applicable.
-@property (nonatomic, assign) RHFloor floor;
-
-/// Initialize with all properties.
+/// Initialize with all properties
 - (RHNode *) initWithLatitude:(double)latitude 
-                    longitude:(double)longitude 
-                      indoors:(BOOL)indoors 
-                        floor:(RHFloor)floor;
+                    longitude:(double)longitude;
 
 @end
