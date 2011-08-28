@@ -1,5 +1,5 @@
 //
-//  RHNodeTests.h
+//  RHPathTests.h
 //  RHIT Mobile Campus Directory
 //
 //  Copyright 2011 Rose-Hulman Institute of Technology
@@ -19,11 +19,11 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-#import "RHNode.h"
+#import "RHPath.h"
 
-/// Unit tests (logic) for RHNode.
+/// Unit tests (logic) for RHPath.
 
-@interface RHNodeTests : SenTestCase
+@interface RHPathTests : SenTestCase
 
 /// Test basic initialization.
 - (void) testInitWithAllProperties;
