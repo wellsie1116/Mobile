@@ -136,6 +136,22 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		9226034F1409C32A0065F705 /* LogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				9226034C1409BD910065F705 /* RHNodeTests.h */,
+				9226034D1409BD910065F705 /* RHNodeTests.m */,
+			);
+			name = LogicTests;
+			sourceTree = "<group>";
+		};
+		922603501409C3330065F705 /* ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ApplicationTests;
+			sourceTree = "<group>";
+		};
 		9265FE991409AB5C00AE406E = {
 			isa = PBXGroup;
 			children = (
@@ -200,9 +216,9 @@
 		9265FED61409AB5D00AE406E /* RHITMobileTests */ = {
 			isa = PBXGroup;
 			children = (
+				922603501409C3330065F705 /* ApplicationTests */,
+				9226034F1409C32A0065F705 /* LogicTests */,
 				9265FED71409AB5D00AE406E /* Supporting Files */,
-				9226034C1409BD910065F705 /* RHNodeTests.h */,
-				9226034D1409BD910065F705 /* RHNodeTests.m */,
 			);
 			path = RHITMobileTests;
 			sourceTree = "<group>";
