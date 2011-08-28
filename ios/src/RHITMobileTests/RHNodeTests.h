@@ -1,5 +1,5 @@
 //
-//  RHITMobileTests.m
+//  RHNodeTests.h
 //  RHIT Mobile Campus Directory
 //
 //  Copyright 2011 Rose-Hulman Institute of Technology
@@ -17,20 +17,12 @@
 //  limitations under the License.
 //
 
-#import "RHITMobileTests.h"
+#import <SenTestingKit/SenTestingKit.h>
 
-@implementation RHITMobileTests
+#import "RHNode.h"
 
-- (void) setUp {
-    [super setUp];
-    
-    // Set-up code here.
-}
+/// Unit tests (logic) for RHNode.
 
-- (void) tearDown {
-    // Tear-down code here.
-    
-    [super tearDown];
-}
+@interface RHNodeTests : SenTestCase
 
 @end

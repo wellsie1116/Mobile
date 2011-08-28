@@ -26,4 +26,20 @@
 @synthesize indoors;
 @synthesize floor;
 
+- (RHNode *) initWithLatitude:(double)newLatitude 
+                    longitude:(double)newLongitude 
+                      indoors:(BOOL)newIndoors 
+                        floor:(RHFloor)newFloor {
+    self = (RHNode *)[super init];
+    
+    if (self) {
+        self.latitude = newLatitude;
+        self.longitude = newLongitude;
+        self.indoors = newIndoors;
+        self.floor = newFloor;
+    }
+    
+    return self;
+}
+
 @end

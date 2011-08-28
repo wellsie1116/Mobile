@@ -1,5 +1,5 @@
 //
-//  RHITMobileTests.h
+//  RHNodeTests.m
 //  RHIT Mobile Campus Directory
 //
 //  Copyright 2011 Rose-Hulman Institute of Technology
@@ -17,8 +17,19 @@
 //  limitations under the License.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import "RHNodeTests.h"
 
-@interface RHITMobileTests : SenTestCase
+@implementation RHNodeTests
+
+- (void) testInitWithAllProperties {
+    RHNode *node = [[RHNode alloc] initWithLatitude:1 
+                                          longitude:2 
+                                            indoors:YES 
+                                              floor:RHFLOOR_FIRST];
+    STAssertEquals(node.latitude, 1.0, @"RHNode.latitude not properly set");
+    STAssertEquals(node.longitude, 2.0, @"RHNode.longitude not properly set");
+    STAssertEquals(node.indoors, YES, @"RHNode.indoors not properly set");
+    STAssertEquals(node.floor, RHFLOOR_FIRST, @"RHNode.floor not properly set");
+}
 
 @end
