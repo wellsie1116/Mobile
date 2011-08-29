@@ -38,8 +38,10 @@
                                            node2:node2
                                         pathType:RHPATHTYPE_STANDARD];
     
-    STAssertEquals(path.node1, node1, @"RHPath.node1 not set correctly");
-    STAssertEquals(path.node2, node2, @"RHPath.node2 not set correctly");
+    STAssertEquals(path.node1, node1,
+                   @"RHPath.node1 not set correctly");
+    STAssertEquals(path.node2, node2,
+                   @"RHPath.node2 not set correctly");
     STAssertEquals(path.pathType, RHPATHTYPE_STANDARD,
                    @"RHPath.pathType not set properly");
 }
