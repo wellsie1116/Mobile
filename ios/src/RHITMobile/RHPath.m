@@ -31,7 +31,7 @@
     self = [super init];
     self.node1 = newNode1;
     self.node2 = newNode2;
-    self.pathType = pathType;
+    self.pathType = newPathType;
     return self;
 }
 
