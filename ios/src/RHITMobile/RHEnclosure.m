@@ -24,4 +24,15 @@
 @synthesize internalNodes;
 @synthesize edgeNodes;
 
+- (RHEnclosure *) initWithInternalNodes:(NSArray *)newInternalNodes
+                              edgeNodes:(NSArray *)newEdgeNodes {
+    self = (RHEnclosure *)[super init];
+    if (self) {
+        self.internalNodes = newInternalNodes;
+        self.edgeNodes = newEdgeNodes;
+    }
+    
+    return self;
+}
+
 @end

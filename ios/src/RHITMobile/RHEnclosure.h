@@ -29,4 +29,8 @@
 /// RHNode objects that are part of the edge of the enclosure.
 @property (nonatomic, retain) NSArray *edgeNodes;
 
+/// Initialize with all properties.
+- (RHEnclosure *) initWithInternalNodes:(NSArray *)internalNodes
+                              edgeNodes:(NSArray *)edgeNodes;
+
 @end

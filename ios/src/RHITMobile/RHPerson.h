@@ -34,4 +34,9 @@
 /// Last name of this person.
 @property (nonatomic, retain) NSString *lastName;
 
+/// Initialize with all properties
+- (RHPerson *)initWithLocation:(RHLocation *)location
+                     firstName:(NSString *)firstName
+                      lastName:(NSString *)lastName;
+
 @end

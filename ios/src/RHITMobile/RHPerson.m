@@ -25,4 +25,19 @@
 @synthesize firstName;
 @synthesize lastName;
 
+/// Initialize with all properties
+- (RHPerson *)initWithLocation:(RHLocation *)newLocation
+                     firstName:(NSString *)newFirstName
+                      lastName:(NSString *)newLastName {
+    self = (RHPerson *)[super init];
+    
+    if (self) {
+        self.location = newLocation;
+        self.firstName = newFirstName;
+        self.lastName = newLastName;
+    }
+    
+    return self;
+}
+
 @end
