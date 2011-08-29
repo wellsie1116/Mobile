@@ -31,4 +31,14 @@
                    @"RHNode.longitude not properly set");
 }
 
+- (void) testInitWithAllPropertiesInPlace {
+    RHNode *node = [RHNode alloc];
+    [node initWithLatitude:3 longitude:4];
+    
+    STAssertEquals(node.latitude, 3.0,
+                   @"RHNode.latitude not properly set");
+    STAssertEquals(node.longitude, 4.0,
+                   @"RHNode.longitude not properly set");
+}
+
 @end

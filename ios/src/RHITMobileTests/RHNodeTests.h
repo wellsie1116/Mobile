@@ -28,4 +28,7 @@
 /// Test basic initialization.
 - (void) testInitWithAllProperties;
 
+/// Test basic initialization in place.
+- (void) testInitWithAllPropertiesInPlace;
+
 @end
