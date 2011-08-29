@@ -27,23 +27,29 @@
     RHNavigationNode *node3 = [RHNavigationNode alloc];
     
     NSArray *internals = [NSArray alloc];
-    [internals initWithObjects:node1, node2, node3, nil];
+    internals = [internals initWithObjects:node1, node2, node3, nil];
     
     RHNavigationNode *node4 = [RHNavigationNode alloc];
     RHNavigationNode *node5 = [RHNavigationNode alloc];
     
     NSArray *edges = [NSArray alloc];
-    [edges initWithObjects:node4, node5, nil];
+    edges = [edges initWithObjects:node4, node5, nil];
     
     RHEnclosure *enclosure = [RHEnclosure alloc];
     enclosure = [enclosure initWithInternalNodes:internals
                                        edgeNodes:edges];
     
-    STAssertEquals(enclosure.internalNodes, internals,
-                   @"RHEnclosure.internalNodes not set properly");
+    STAssertTrue([enclosure.internalNodes containsObject:node1],
+                 @"Internal node missing");
+    STAssertTrue([enclosure.internalNodes containsObject:node2],
+                 @"Internal node missing");
+    STAssertTrue([enclosure.internalNodes containsObject:node3],
+                 @"Internal node missing");
     
-    STAssertEquals(enclosure.edgeNodes, edges,
-                   @"RHEnclosure.edgeNodes not set properly");
+    STAssertTrue([enclosure.edgeNodes containsObject:node4],
+                 @"Edge node missing");
+    STAssertTrue([enclosure.edgeNodes containsObject:node5],
+                 @"Edge node missing");
 }
 
 - (void) testInitWithAllPropertiesInPlace {
@@ -52,23 +58,29 @@
     RHNavigationNode *node3 = [RHNavigationNode alloc];
     
     NSArray *internals = [NSArray alloc];
-    [internals initWithObjects:node1, node2, node3, nil];
+    internals = [internals initWithObjects:node1, node2, node3, nil];
     
     RHNavigationNode *node4 = [RHNavigationNode alloc];
     RHNavigationNode *node5 = [RHNavigationNode alloc];
     
     NSArray *edges = [NSArray alloc];
-    [edges initWithObjects:node4, node5, nil];
+    edges = [edges initWithObjects:node4, node5, nil];
     
     RHEnclosure *enclosure = [RHEnclosure alloc];
     [enclosure initWithInternalNodes:internals
                            edgeNodes:edges];
     
-    STAssertEquals(enclosure.internalNodes, internals,
-                   @"RHEnclosure.internalNodes not set properly");
+    STAssertTrue([enclosure.internalNodes containsObject:node1],
+                 @"Internal node missing");
+    STAssertTrue([enclosure.internalNodes containsObject:node2],
+                 @"Internal node missing");
+    STAssertTrue([enclosure.internalNodes containsObject:node3],
+                 @"Internal node missing");
     
-    STAssertEquals(enclosure.edgeNodes, edges,
-                   @"RHEnclosure.edgeNodes not set properly");
+    STAssertTrue([enclosure.edgeNodes containsObject:node4],
+                 @"Edge node missing");
+    STAssertTrue([enclosure.edgeNodes containsObject:node5],
+                 @"Edge node missing");
 }
 
 @end
