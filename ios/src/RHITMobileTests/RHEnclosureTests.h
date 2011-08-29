@@ -1,5 +1,5 @@
 //
-//  RHEnclosure.h
+//  RHEnclosureTests.h
 //  RHIT Mobile Campus Directory
 //
 //  Copyright 2011 Rose-Hulman Institute of Technology
@@ -17,22 +17,18 @@
 //  limitations under the License.
 //
 
-#import <Foundation/Foundation.h>
+#import <SenTestingKit/SenTestingKit.h>
 
-#import "RHNavigationNode.h"
+#import "RHEnclosure.h"
 
-/// Representation of a geographic partition of all RHNode objects.
+/// Unit tests (logic) for RHEnclosure.
 
-@interface RHEnclosure : NSObject
+@interface RHEnclosureTests : SenTestCase
 
-/// RHNode objects internal to the enclosure that do not contribute to its edge.
-@property (nonatomic, retain) NSArray *internalNodes;
+/// Test basic initialization.
+- (void) testInitWithAllProperties;
 
-/// RHNode objects that are part of the edge of the enclosure.
-@property (nonatomic, retain) NSArray *edgeNodes;
-
-/// Initialize with all properties.
-- (RHEnclosure *) initWithInternalNodes:(NSArray *)internalNodes
-                              edgeNodes:(NSArray *)edgeNodes;
+/// Test basic initialization in place.
+- (void) testInitWithAllPropertiesInPlace;
 
 @end

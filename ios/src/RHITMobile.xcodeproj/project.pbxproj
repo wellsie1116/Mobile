@@ -28,6 +28,7 @@
 		924E7557140ADCD7001DFC4C /* RHBoundaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E7556140ADCD7001DFC4C /* RHBoundaryNode.m */; };
 		924E7558140ADCD7001DFC4C /* RHBoundaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E7556140ADCD7001DFC4C /* RHBoundaryNode.m */; };
 		924E755B140B1C36001DFC4C /* RHNavigationNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E755A140B1C36001DFC4C /* RHNavigationNodeTests.m */; };
+		924E755E140B2DFE001DFC4C /* RHEnclosureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E755D140B2DFD001DFC4C /* RHEnclosureTests.m */; };
 		9265FEA91409AB5D00AE406E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEA81409AB5D00AE406E /* UIKit.framework */; };
 		9265FEAB1409AB5D00AE406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAA1409AB5D00AE406E /* Foundation.framework */; };
 		9265FEAD1409AB5D00AE406E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265FEAC1409AB5D00AE406E /* CoreGraphics.framework */; };
@@ -82,6 +83,8 @@
 		924E7556140ADCD7001DFC4C /* RHBoundaryNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHBoundaryNode.m; sourceTree = "<group>"; };
 		924E7559140B1C36001DFC4C /* RHNavigationNodeTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNavigationNodeTests.h; sourceTree = "<group>"; };
 		924E755A140B1C36001DFC4C /* RHNavigationNodeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNavigationNodeTests.m; sourceTree = "<group>"; };
+		924E755C140B2DFD001DFC4C /* RHEnclosureTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHEnclosureTests.h; sourceTree = "<group>"; };
+		924E755D140B2DFD001DFC4C /* RHEnclosureTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHEnclosureTests.m; sourceTree = "<group>"; };
 		9265FEA41409AB5D00AE406E /* RHITMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHITMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9265FEA81409AB5D00AE406E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9265FEAA1409AB5D00AE406E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -170,6 +173,8 @@
 				924E754F140ADA56001DFC4C /* RHPathTests.m */,
 				924E7559140B1C36001DFC4C /* RHNavigationNodeTests.h */,
 				924E755A140B1C36001DFC4C /* RHNavigationNodeTests.m */,
+				924E755C140B2DFD001DFC4C /* RHEnclosureTests.h */,
+				924E755D140B2DFD001DFC4C /* RHEnclosureTests.m */,
 			);
 			name = LogicTests;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 				924E7554140ADCA0001DFC4C /* RHNavigationNode.m in Sources */,
 				924E7558140ADCD7001DFC4C /* RHBoundaryNode.m in Sources */,
 				924E755B140B1C36001DFC4C /* RHNavigationNodeTests.m in Sources */,
+				924E755E140B2DFE001DFC4C /* RHEnclosureTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
