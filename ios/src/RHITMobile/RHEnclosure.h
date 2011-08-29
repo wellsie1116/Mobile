@@ -26,7 +26,7 @@
 /// RHNode objects internal to the enclosure that do not contribute to its edge.
 @property (nonatomic, retain) NSArray *internalNodes;
 
-/// RHNode objects that are part of the edge of the enclosure
+/// RHNode objects that are part of the edge of the enclosure.
 @property (nonatomic, retain) NSArray *edgeNodes;
 
 @end

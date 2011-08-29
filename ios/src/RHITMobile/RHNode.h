@@ -33,7 +33,7 @@
 /// Longitude coordinate for this node.
 @property (nonatomic, assign) double longitude;
 
-/// Initialize with all properties
+/// Initialize with all properties.
 - (RHNode *) initWithLatitude:(double)latitude 
                     longitude:(double)longitude;
 

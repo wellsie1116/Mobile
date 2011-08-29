@@ -35,7 +35,7 @@
 /// Any special characteristics of this path.
 @property (nonatomic, assign) RHPathType pathType;
 
-/// Initialize with all properties
+/// Initialize with all properties.
 - (RHPath *) initWithNode1:(RHNavigationNode *)node1
                      node2:(RHNavigationNode *)node2
                   pathType:(RHPathType)pathType;

@@ -33,7 +33,7 @@
 /// RHLocation objects that are part of or enclosed by this location.
 @property (nonatomic, retain) NSArray *enclosedLocations;
 
-/// Initialize with all properties
+/// Initialize with all properties.
 - (RHLocation *) initWithNavigationNodes:(NSArray *)navigationNodes
                            boundaryNodes:(NSArray *)boundaryNodes
                        enclosedLocations:(NSArray *)enclosedLocations;
