@@ -35,4 +35,10 @@
     return self;
 }
 
+- (void) dealloc {
+    [internalNodes release];
+    [edgeNodes release];
+    [super dealloc];
+}
+
 @end
