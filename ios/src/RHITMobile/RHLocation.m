@@ -25,4 +25,25 @@
 @synthesize boundaryNodes;
 @synthesize enclosedLocations;
 
+- (RHLocation *) initWithNavigationNodes:(NSArray *)newNavigationNodes
+                           boundaryNodes:(NSArray *)newBoundaryNodes
+                       enclosedLocations:(NSArray *)newEnclosedLocations {
+    self = (RHLocation *)[super init];
+    
+    if (self) {
+        self.navigationNodes = newNavigationNodes;
+        self.boundaryNodes = newBoundaryNodes;
+        self.enclosedLocations = newEnclosedLocations;
+    }
+    
+    return self;
+}
+
+- (void) dealloc {
+    [self.navigationNodes release];
+    [self.boundaryNodes release];
+    [self.enclosedLocations release];
+    [super dealloc];
+}
+
 @end
