@@ -19,6 +19,9 @@
 
 #import <Foundation/Foundation.h>
 
+#import "RHNavigationNode.h"
+#import "RHBoundaryNode.h"
+
 /// Representation of a canonical location, which may be more than a specific
 /// point in space.
 
