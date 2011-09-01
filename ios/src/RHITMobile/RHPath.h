@@ -24,13 +24,21 @@
 
 /// Representation of a traversable connection between two RHNode objects.
 
-@interface RHPath : NSObject
+@interface RHPath : NSObject {
+    @private
+    RHNavigationNode *_node1;
+    RHNavigationNode *_node2;
+    NSArray *_nodes;
+}
 
 /// First RHNode that this path connects.
 @property (nonatomic, retain) RHNavigationNode *node1;
 
 /// Second RHNode that this path connects.
 @property (nonatomic, retain) RHNavigationNode *node2;
+
+/// A two-element NSArray containing this path's nodes in order.
+@property (nonatomic, retain, readonly) NSArray *nodes;
 
 /// Any special characteristics of this path.
 @property (nonatomic, assign) RHPathType pathType;

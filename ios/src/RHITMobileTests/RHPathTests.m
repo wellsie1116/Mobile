@@ -72,4 +72,58 @@
                    @"RHPath.pathType not set properly");
 }
 
+- (void) testNodesArrayIsPopulatedCorrectly {
+    RHNavigationNode *node1 = [RHNavigationNode alloc];
+    node1 = [node1 initWithLatitude:1 
+                          longitude:2 
+                            indoors:YES 
+                              floor:RHFLOOR_FIRST];
+    
+    RHNavigationNode *node2 = [RHNavigationNode alloc];
+    node2 = [node2 initWithLatitude:3
+                          longitude:4 
+                            indoors:NO 
+                              floor:RHFLOOR_SECOND];
+
+    RHPath *path = [RHPath alloc];
+    path = [path initWithNode1:node1
+                         node2:node2
+                      pathType:RHPATHTYPE_STAIRS];
+    
+    STAssertEquals([path.nodes objectAtIndex:0], node1,
+                   @"First node improperly set");
+    
+    
+    STAssertEquals([path.nodes objectAtIndex:1], node2,
+                   @"First node improperly set");
+}
+
+- (void) testNodesArrayIsUpdatedCorrectly {
+    RHNavigationNode *node1 = [RHNavigationNode alloc];
+    node1 = [node1 initWithLatitude:1 
+                          longitude:2 
+                            indoors:YES 
+                              floor:RHFLOOR_FIRST];
+    
+    RHNavigationNode *node2 = [RHNavigationNode alloc];
+    node2 = [node2 initWithLatitude:3
+                          longitude:4 
+                            indoors:NO 
+                              floor:RHFLOOR_SECOND];
+
+    RHPath *path = [RHPath alloc];
+    path = [path initWithNode1:node1
+                         node2:node2
+                      pathType:RHPATHTYPE_STAIRS];
+    
+    path.node1 = node2;
+    path.node2 = node1;
+    
+    STAssertEquals([path.nodes objectAtIndex:0], node2,
+                   @"First node improperly set");
+    
+    STAssertEquals([path.nodes objectAtIndex:1], node1,
+                   @"First node improperly set");
+}
+
 @end

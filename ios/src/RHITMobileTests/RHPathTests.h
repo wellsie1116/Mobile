@@ -31,4 +31,10 @@
 /// Test basic initialization in place.
 - (void) testInitWithAllPropertiesInPlace;
 
+/// Verify that the generated NSArray of nodes is initially populated correctly.
+- (void) testNodesArrayIsPopulatedCorrectly;
+
+/// Verify thta the generated NSArray of nodes is updated correctly.
+- (void) testNodesArrayIsUpdatedCorrectly;
+
 @end

@@ -19,10 +19,19 @@
 
 #import "RHPath.h"
 
+
+@interface RHPath ()
+
+@property (nonatomic, retain, readwrite) NSArray *nodes;
+
+@end
+
+
 @implementation RHPath
 
-@synthesize node1;
-@synthesize node2;
+@synthesize node1 = _node1;
+@synthesize node2 = _node2;
+@synthesize nodes;
 @synthesize pathType;
 
 - (RHPath *) initWithNode1:(RHNavigationNode *)newNode1
@@ -33,6 +42,16 @@
     self.node2 = newNode2;
     self.pathType = newPathType;
     return self;
+}
+
+- (void) setNode1:(RHNavigationNode *)newNode1 {
+    _node1 = newNode1;
+    self.nodes = [[NSArray alloc] initWithObjects:_node1, self.node2, nil];
+}
+
+- (void) setNode2:(RHNavigationNode *)newNode2 {
+    _node2 = newNode2;
+    self.nodes = [[NSArray alloc] initWithObjects:self.node1, _node2, nil];
 }
 
 - (void) dealloc {
