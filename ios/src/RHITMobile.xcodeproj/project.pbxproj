@@ -236,19 +236,11 @@
 		9265FEAE1409AB5D00AE406E /* RHITMobile */ = {
 			isa = PBXGroup;
 			children = (
+				92ECC4C3141430510073C4C3 /* Views */,
 				9226030C1409AE640065F705 /* Model */,
-				9265FEB71409AB5D00AE406E /* RHITMobileAppDelegate.h */,
-				9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */,
-				9265FEBA1409AB5D00AE406E /* MainWindow.xib */,
-				9265FEBD1409AB5D00AE406E /* MapViewController.h */,
-				9265FEBE1409AB5D00AE406E /* MapViewController.m */,
-				9265FEC01409AB5D00AE406E /* SearchViewController.h */,
-				9265FEC11409AB5D00AE406E /* SearchViewController.m */,
-				9265FEC31409AB5D00AE406E /* MapView.xib */,
-				9265FEC61409AB5D00AE406E /* SearchView.xib */,
-				9265FEAF1409AB5D00AE406E /* Supporting Files */,
 				92C930F3141114170003CE8D /* RHMKPolygonFactory.h */,
 				92C930F4141114170003CE8D /* RHMKPolygonFactory.m */,
+				9265FEAF1409AB5D00AE406E /* Supporting Files */,
 			);
 			path = RHITMobile;
 			sourceTree = "<group>";
@@ -282,6 +274,22 @@
 				9265FED91409AB5D00AE406E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92ECC4C3141430510073C4C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9265FEB71409AB5D00AE406E /* RHITMobileAppDelegate.h */,
+				9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */,
+				9265FEBD1409AB5D00AE406E /* MapViewController.h */,
+				9265FEBE1409AB5D00AE406E /* MapViewController.m */,
+				9265FEC01409AB5D00AE406E /* SearchViewController.h */,
+				9265FEC11409AB5D00AE406E /* SearchViewController.m */,
+				9265FEBA1409AB5D00AE406E /* MainWindow.xib */,
+				9265FEC31409AB5D00AE406E /* MapView.xib */,
+				9265FEC61409AB5D00AE406E /* SearchView.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
