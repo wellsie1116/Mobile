@@ -18,16 +18,24 @@
 //
 
 #import "MapViewController.h"
+#import "RHConstants.h"
 
 @implementation MapViewController
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
+@synthesize mapView;
+
+- (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // Initialize what's visible on the map
+    CLLocationCoordinate2D center = {RH_CAMPUS_CENTER_LATITUDE,
+        RH_CAMPUS_CENTER_LONGITUDE};
+    MKCoordinateSpan span = {RH_CAMPUS_HEIGHT,
+        RH_CAMPUS_WIDTH};
+    MKCoordinateRegion region = {center, span};
+    [self.mapView setRegion:region];
 }
-*/
+
 
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Return YES for supported orientations

@@ -116,6 +116,7 @@
 		9265FEDA1409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92C930F3141114170003CE8D /* RHMKPolygonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMKPolygonFactory.h; sourceTree = "<group>"; };
 		92C930F4141114170003CE8D /* RHMKPolygonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMKPolygonFactory.m; sourceTree = "<group>"; };
+		92ECC4C4141434D30073C4C3 /* RHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +280,7 @@
 		92ECC4C3141430510073C4C3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				92ECC4C4141434D30073C4C3 /* RHConstants.h */,
 				9265FEB71409AB5D00AE406E /* RHITMobileAppDelegate.h */,
 				9265FEB81409AB5D00AE406E /* RHITMobileAppDelegate.m */,
 				9265FEBD1409AB5D00AE406E /* MapViewController.h */,

@@ -1,5 +1,5 @@
 //
-//  MapViewController.h
+//  RHConstants.h
 //  RHIT Mobile Campus Directory
 //
 //  Copyright 2011 Rose-Hulman Institute of Technology
@@ -17,13 +17,13 @@
 //  limitations under the License.
 //
 
-/// View controller for the map portion of the application.
+#ifndef RHITMobile_RHConstants_h
+#define RHITMobile_RHConstants_h
 
-#import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
+#define RH_CAMPUS_CENTER_LATITUDE 39.483011
+#define RH_CAMPUS_CENTER_LONGITUDE -87.325623
 
-@interface MapViewController : UIViewController
+#define RH_CAMPUS_HEIGHT 0.004
+#define RH_CAMPUS_WIDTH 0.004
 
-@property (nonatomic, retain) IBOutlet MKMapView *mapView;
-
-@end
+#endif
