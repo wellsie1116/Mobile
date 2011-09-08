@@ -19,8 +19,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
@@ -71,8 +73,22 @@ public class RegisterActivity extends Activity {
     }
     
     private void btnBack_onClick() {
-    	setResult(Activity.RESULT_CANCELED);
-    	finish();
+    	AlertDialog.Builder builder = new AlertDialog.Builder(this);
+    	builder
+    		.setMessage(R.string.abort_register_message)
+    		.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+				public void onClick(DialogInterface dialog, int which) {
+					//go away, for now
+					setResult(Activity.RESULT_CANCELED);
+			    	finish();			
+				}
+			})
+			.setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
+				public void onClick(DialogInterface dialog, int which) {
+					//do nothing
+				}
+			})
+			.show();
     }
     
     private void btnRegister_onClick() {
@@ -123,7 +139,7 @@ public class RegisterActivity extends Activity {
 			if (res) {
 				try {
 					//take at least 2 seconds to execute
-					Thread.sleep(2000 - (System.currentTimeMillis() - ticks));
+					Thread.sleep(2000 - Math.min(2000, (System.currentTimeMillis() - ticks)));
 				} catch (InterruptedException e) { }
 			}
 			

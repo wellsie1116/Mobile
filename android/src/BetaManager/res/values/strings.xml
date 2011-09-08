@@ -5,5 +5,8 @@
     <string name="prefs_main">PREFS_MAIN</string>
     <string name="pref_auth_token">AUTH_TOKEN</string>
     <string name="title_registering">Registering Device</string>
-    <string name="details_registering">"I'll go away when done"</string>
+    <string name="details_registering">"You'll get an email with a link to click in a few moments"</string>
+    <string name="abort_register_message">Registering your device is crucial to our ability to make this app better.  Delaying the registration process now will only annoy you as we will remind you to register every time you launch this application.\n\nAre you defiantly sure you want to abort the registration process?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>
