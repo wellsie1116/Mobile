@@ -1,16 +1,21 @@
 package edu.rosehulman.android.directory;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class MobileDirectoryActivity extends Activity {
+import com.google.android.maps.GeoPoint;
+import com.google.android.maps.MapActivity;
+import com.google.android.maps.MapView;
+
+public class MobileDirectoryActivity extends MapActivity {
 	
 	public static String TAG = "MobileDirectoryActivity";
 
 	private BetaManagerManager m_betaManager;
+
+    private MapView m_mapView;
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -26,6 +31,15 @@ public class MobileDirectoryActivity extends Activity {
         		m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_REGISTER);
         	}
         }
+        
+        m_mapView = (MapView)findViewById(R.id.mapview);
+        m_mapView.setBuiltInZoomControls(true);
+        m_mapView.setSatellite(true);
+        
+        //center the map
+        GeoPoint center = new GeoPoint(39483760, -87325929);
+        m_mapView.getController().setCenter(center);
+        m_mapView.getController().zoomToSpan(6241, 13894);
     }
     
     @Override
@@ -52,6 +66,12 @@ public class MobileDirectoryActivity extends Activity {
             return super.onOptionsItemSelected(item);
         }
     }
+
+	@Override
+	protected boolean isRouteDisplayed() {
+		//FIXME update when we start displaying route information
+		return false;
+	}
     
     
 }
