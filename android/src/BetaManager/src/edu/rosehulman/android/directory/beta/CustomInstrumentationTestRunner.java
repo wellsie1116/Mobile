@@ -13,6 +13,7 @@ import android.test.AndroidTestRunner;
 import android.test.InstrumentationTestRunner;
 import android.test.InstrumentationTestSuite;
 import android.util.Log;
+import edu.rosehulman.android.directory.tests.ui.MainActivityTest;
 
 public class CustomInstrumentationTestRunner extends InstrumentationTestRunner implements TestListener{
 
@@ -64,22 +65,7 @@ public class CustomInstrumentationTestRunner extends InstrumentationTestRunner i
 		}
 
 		Bundle bundle = new Bundle();
-		bundle.putChar("asdf", 'f');
-		
 		finish(REPORT_VALUE_RESULT_OK, bundle);
-		
-		//suite.run()
-		
-		/*
-		for () {
-			
-			runner.startTest(test);
-			test.run(runner.getTestResult());
-			runner.endTest(test);
-		}
-		//*/
-		//super.onStart();
-		
 	}
 	
 	@Override
@@ -94,8 +80,7 @@ public class CustomInstrumentationTestRunner extends InstrumentationTestRunner i
         InstrumentationTestSuite suite = new InstrumentationTestSuite(this);
 
         //TODO add more test cases
-        //suite.addTestSuite(TestTests.class);
-        //suite.addTestSuite(TestActivity.class);
+        suite.addTestSuite(MainActivityTest.class);
         
         return suite;
     }
