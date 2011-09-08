@@ -9,7 +9,7 @@ import com.google.android.maps.GeoPoint;
 import com.google.android.maps.MapActivity;
 import com.google.android.maps.MapView;
 
-public class MobileDirectoryActivity extends MapActivity {
+public class MainActivity extends MapActivity {
 	
 	public static String TAG = "MobileDirectoryActivity";
 
@@ -22,14 +22,17 @@ public class MobileDirectoryActivity extends MapActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        m_betaManager = new BetaManagerManager(this);
-        
-        if (m_betaManager.hasBetaManager()) {
-        	if (m_betaManager.isBetaRegistered()) {
-        		m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_STARTUP);	
-        	} else {
-        		m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_REGISTER);
-        	}
+        boolean useBeta = !getIntent().getBooleanExtra("DisableBeta", false);
+        if (useBeta) {
+	        m_betaManager = new BetaManagerManager(this);
+	        
+	        if (m_betaManager.hasBetaManager()) {
+	        	if (m_betaManager.isBetaRegistered()) {
+	        		m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_STARTUP);	
+	        	} else {
+	        		m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_REGISTER);
+	        	}
+	        }
         }
         
         m_mapView = (MapView)findViewById(R.id.mapview);
