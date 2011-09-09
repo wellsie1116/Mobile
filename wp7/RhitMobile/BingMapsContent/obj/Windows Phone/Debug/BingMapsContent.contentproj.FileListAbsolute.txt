@@ -1,0 +1,4 @@
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMapsContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMapsContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMapsContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMapsContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
