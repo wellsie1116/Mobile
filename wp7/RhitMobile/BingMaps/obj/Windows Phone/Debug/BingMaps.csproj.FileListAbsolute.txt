@@ -1,0 +1,65 @@
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\bin\Windows Phone\Debug\Content\Font.xnb
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\bin\Windows Phone\Debug\Content\blank.xnb
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\bin\Windows Phone\Debug\Content\Pushpin.xnb
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\bin\Windows Phone\Debug\Content\noImage.xnb
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\bin\Windows Phone\Debug\Content\tank.xnb
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.dll
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.pdb
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\obj\Windows Phone\Debug\BingMapsPathfinding.dll
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\obj\Windows Phone\Debug\BingMapsPathfinding.pdb
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\obj\Windows Phone\Debug\WMAppManifest.xml
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.xap
+C:\Users\t-bwatts\Desktop\BingMapsPathFinding_4_0\BingMaps\BingMaps\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\Font.xnb
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\blank.xnb
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\Pushpin.xnb
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\noImage.xnb
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\tank.xnb
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.dll
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.pdb
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\BingMapsPathfinding.dll
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\BingMapsPathfinding.pdb
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\WMAppManifest.xml
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.xap
+C:\Users\t-bwatts\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\Font.xnb
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\blank.xnb
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\Pushpin.xnb
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\noImage.xnb
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\tank.xnb
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.dll
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.pdb
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\BingMapsPathfinding.dll
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\BingMapsPathfinding.pdb
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.xap
+C:\Users\wattsbn\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\Font.xnb
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\blank.xnb
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\Pushpin.xnb
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\noImage.xnb
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\Content\tank.xnb
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.dll
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.pdb
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\BingMapsPathfinding.dll
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\BingMapsPathfinding.pdb
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\WMAppManifest.xml
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\bin\Windows Phone\Debug\BingMapsPathfinding.xap
+C:\Users\Mr. Power\Dropbox\RhitMobile\BingMaps\obj\Windows Phone\Debug\XapCacheFile.xml
