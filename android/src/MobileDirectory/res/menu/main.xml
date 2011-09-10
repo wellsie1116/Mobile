@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/beta_channel">
+	    <item android:id="@+id/beta_manager"
+	          android:icon="@drawable/icon"
+	          android:title="Beta Manager" />
+    </group>
+    <item android:id="@+id/help"
+          android:icon="@drawable/icon"
+          android:title="Help" />
+</menu>

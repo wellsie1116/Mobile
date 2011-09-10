@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/root"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:weightSum="1">
+    <ScrollView
+    	android:id="@+id/scrollView1" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:fillViewport="true"
+    	android:layout_weight="1.0"
+    	>
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+		    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Register your device" android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+		    <View
+	            android:layout_width="fill_parent"
+	            android:layout_height="1dip"
+	            android:background="#ff106510"
+	            android:layout_marginLeft="6dip"
+	            android:layout_marginRight="6dip"
+	            android:layout_marginTop="6dip"
+	            android:layout_marginBottom="12dip"
+	            />
+		    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView4" android:text="Before getting started, take the time to register your device for the beta.  Registering will allow you to submit feedback and will ensure you always have the latest version." android:paddingTop="5px" android:paddingBottom="20px"></TextView>
+		    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView3" android:text="Email (@rose-hulman.edu preferred)"></TextView>
+		    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" android:id="@+id/txtEmail">
+		        <requestFocus></requestFocus>
+		    </EditText>
+		    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView2" android:text="Name (optional)"></TextView>
+		    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPersonName" android:id="@+id/txtName"></EditText>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:background="@android:drawable/bottom_bar"
+		android:gravity="center_vertical|bottom">
+		<Button
+        	android:id="@+id/btnBack" 
+        	android:text="Back" 
+        	android:layout_width="6dip"
+        	android:layout_weight="1.0" 
+        	android:layout_height="wrap_content"
+        	/>
+        <Button 
+	        android:id="@+id/btnRegister" 
+	        android:text="Register"  
+	        android:layout_width="6dip"
+	        android:layout_weight="1.0"
+	        android:layout_height="wrap_content" 
+        	/>
+    </LinearLayout>
+</LinearLayout>
