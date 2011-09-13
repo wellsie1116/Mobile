@@ -215,7 +215,6 @@
 		9265FE991409AB5C00AE406E = {
 			isa = PBXGroup;
 			children = (
-				92DFEACC141FEF9100889314 /* MapKit.framework */,
 				922603591409C9680065F705 /* launch-icon-small.png */,
 				922603571409C9480065F705 /* launch-icon-large.png */,
 				9265FEAE1409AB5D00AE406E /* RHITMobile */,
@@ -237,6 +236,7 @@
 		9265FEA71409AB5D00AE406E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92DFEACC141FEF9100889314 /* MapKit.framework */,
 				9226030D1409AEF00065F705 /* MapKit.framework */,
 				9265FEA81409AB5D00AE406E /* UIKit.framework */,
 				9265FEAA1409AB5D00AE406E /* Foundation.framework */,
