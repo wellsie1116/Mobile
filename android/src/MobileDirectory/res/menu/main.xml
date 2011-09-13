@@ -5,6 +5,11 @@
 	          android:icon="@drawable/icon"
 	          android:title="Beta Manager" />
     </group>
+    <group android:id="@+id/location_items">
+	    <item android:id="@+id/location"
+	          android:icon="@drawable/icon"
+	          android:title="My Location" />
+    </group>
     <item android:id="@+id/help"
           android:icon="@drawable/icon"
           android:title="Help" />

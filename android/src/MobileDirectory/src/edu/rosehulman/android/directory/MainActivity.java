@@ -121,6 +121,7 @@ public class MainActivity extends MapActivity {
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
     	menu.setGroupVisible(R.id.beta_channel, betaManager.hasBetaManager());
+    	menu.setGroupVisible(R.id.location_items, myLocation.getMyLocation() != null);
         return true;
     }
     
@@ -131,6 +132,9 @@ public class MainActivity extends MapActivity {
         case R.id.beta_manager:
             betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_BETA_MANAGER);
             return true;
+        case R.id.location:
+        	mapView.getController().animateTo(myLocation.getMyLocation());
+        	return true;
         default:
             return super.onOptionsItemSelected(item);
         }
@@ -141,6 +145,5 @@ public class MainActivity extends MapActivity {
 		//FIXME update when we start displaying route information
 		return false;
 	}
-    
     
 }
