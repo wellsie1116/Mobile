@@ -53,6 +53,7 @@
 		92C930F6141114170003CE8D /* RHMKPolygonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C930F4141114170003CE8D /* RHMKPolygonFactory.m */; };
 		92DFEACA141FD4E500889314 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */; };
 		92DFEACB141FD4E500889314 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */; };
+		92DFEACD141FEF9100889314 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DFEACC141FEF9100889314 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		92C930F4141114170003CE8D /* RHMKPolygonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMKPolygonFactory.m; sourceTree = "<group>"; };
 		92DFEAC8141FD4E500889314 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
 		92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		92DFEACC141FEF9100889314 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		92ECC4C4141434D30073C4C3 /* RHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92DFEACD141FEF9100889314 /* MapKit.framework in Frameworks */,
 				9265FED01409AB5D00AE406E /* SenTestingKit.framework in Frameworks */,
 				9265FED11409AB5D00AE406E /* UIKit.framework in Frameworks */,
 				9265FED21409AB5D00AE406E /* Foundation.framework in Frameworks */,
@@ -212,6 +215,7 @@
 		9265FE991409AB5C00AE406E = {
 			isa = PBXGroup;
 			children = (
+				92DFEACC141FEF9100889314 /* MapKit.framework */,
 				922603591409C9680065F705 /* launch-icon-small.png */,
 				922603571409C9480065F705 /* launch-icon-large.png */,
 				9265FEAE1409AB5D00AE406E /* RHITMobile */,
