@@ -51,6 +51,8 @@
 		9265FEDB1409AB5D00AE406E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9265FED91409AB5D00AE406E /* InfoPlist.strings */; };
 		92C930F5141114170003CE8D /* RHMKPolygonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C930F4141114170003CE8D /* RHMKPolygonFactory.m */; };
 		92C930F6141114170003CE8D /* RHMKPolygonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C930F4141114170003CE8D /* RHMKPolygonFactory.m */; };
+		92DFEACA141FD4E500889314 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */; };
+		92DFEACB141FD4E500889314 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,8 @@
 		9265FEDA1409AB5D00AE406E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92C930F3141114170003CE8D /* RHMKPolygonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMKPolygonFactory.h; sourceTree = "<group>"; };
 		92C930F4141114170003CE8D /* RHMKPolygonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMKPolygonFactory.m; sourceTree = "<group>"; };
+		92DFEAC8141FD4E500889314 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
 		92ECC4C4141434D30073C4C3 /* RHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -294,6 +298,8 @@
 				9265FEBA1409AB5D00AE406E /* MainWindow.xib */,
 				9265FEC31409AB5D00AE406E /* MapView.xib */,
 				9265FEC61409AB5D00AE406E /* SearchView.xib */,
+				92DFEAC8141FD4E500889314 /* MKMapView+ZoomLevel.h */,
+				92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */,
 				9233DD0D141BAA3500B9A549 /* RHAnnotation.h */,
 				9233DD0E141BAA3500B9A549 /* RHAnnotation.m */,
 			);
@@ -424,6 +430,7 @@
 				924E7557140ADCD7001DFC4C /* RHBoundaryNode.m in Sources */,
 				92C930F5141114170003CE8D /* RHMKPolygonFactory.m in Sources */,
 				9233DD0F141BAA3500B9A549 /* RHAnnotation.m in Sources */,
+				92DFEACA141FD4E500889314 /* MKMapView+ZoomLevel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +453,7 @@
 				924E7567140B3979001DFC4C /* RHPersonTests.m in Sources */,
 				92C930F6141114170003CE8D /* RHMKPolygonFactory.m in Sources */,
 				9233DD10141BAA3500B9A549 /* RHAnnotation.m in Sources */,
+				92DFEACB141FD4E500889314 /* MKMapView+ZoomLevel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
