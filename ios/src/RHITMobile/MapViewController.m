@@ -30,7 +30,9 @@
     // Initialize what's visible on the map
     CLLocationCoordinate2D center = {RH_CAMPUS_CENTER_LATITUDE,
         RH_CAMPUS_CENTER_LONGITUDE};
-    [self.mapView setCenterCoordinate:center zoomLevel:15 animated:NO];
+    [self.mapView setCenterCoordinate:center
+                            zoomLevel:RH_INITIAL_ZOOM_LEVEL
+                             animated:NO];
 }
 
 
