@@ -30,10 +30,7 @@
     // Initialize what's visible on the map
     CLLocationCoordinate2D center = {RH_CAMPUS_CENTER_LATITUDE,
         RH_CAMPUS_CENTER_LONGITUDE};
-    MKCoordinateSpan span = {RH_CAMPUS_HEIGHT,
-        RH_CAMPUS_WIDTH};
-    MKCoordinateRegion region = {center, span};
-    [self.mapView setRegion:region];
+    [self.mapView setCenterCoordinate:center zoomLevel:15 animated:NO];
 }
 
 

@@ -20,7 +20,7 @@
 /// View controller for the map portion of the application.
 
 #import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
+#import "MKMapView+ZoomLevel.h"
 
 @interface MapViewController : UIViewController
 
