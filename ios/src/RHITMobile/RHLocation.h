@@ -27,6 +27,9 @@
 
 @interface RHLocation : NSObject
 
+/// Human-readable name of this location
+@property (nonatomic, retain) NSString *name;
+
 /// RHNavigationNode objects that make up this location.
 @property (nonatomic, retain) NSArray *navigationNodes;
 

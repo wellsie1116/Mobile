@@ -21,16 +21,19 @@
 
 @implementation RHLocation
 
+@synthesize name;
 @synthesize navigationNodes;
 @synthesize boundaryNodes;
 @synthesize enclosedLocations;
 
-- (RHLocation *) initWithNavigationNodes:(NSArray *)newNavigationNodes
-                           boundaryNodes:(NSArray *)newBoundaryNodes
-                       enclosedLocations:(NSArray *)newEnclosedLocations {
+- (RHLocation *) initWithName:(NSString *)newName
+              NavigationNodes:(NSArray *)newNavigationNodes
+                boundaryNodes:(NSArray *)newBoundaryNodes
+            enclosedLocations:(NSArray *)newEnclosedLocations {
     self = (RHLocation *)[super init];
     
     if (self) {
+        self.name = newName;
         self.navigationNodes = newNavigationNodes;
         self.boundaryNodes = newBoundaryNodes;
         self.enclosedLocations = newEnclosedLocations;
