@@ -15,20 +15,19 @@ import com.google.android.maps.GeoPoint;
 import com.google.android.maps.MapActivity;
 import com.google.android.maps.MapView;
 import com.google.android.maps.MyLocationOverlay;
-import com.google.android.maps.MapView.ReticleDrawMode;
 
 public class MainActivity extends MapActivity {
 	
 	public static String TAG = "MobileDirectoryActivity";
 
-	private BetaManagerManager m_betaManager;
+	private BetaManagerManager betaManager;
 
-    private MapView m_mapView;
+    private MapView mapView;
     
-    private LocationManager m_serviceLocation;
-    private LocationListener m_locListener;
+    private LocationManager locationManager;
+    private LocationListener locationListener;
 
-    private MyLocationOverlay m_locationOverlay;
+    private MyLocationOverlay myLocation;
     
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,28 +36,28 @@ public class MainActivity extends MapActivity {
         
         boolean useBeta = !getIntent().getBooleanExtra("DisableBeta", false);
         if (useBeta) {
-	        m_betaManager = new BetaManagerManager(this);
+	        betaManager = new BetaManagerManager(this);
 	        
-	        if (m_betaManager.hasBetaManager()) {
-	        	if (m_betaManager.isBetaRegistered()) {
-	        		m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_STARTUP);	
+	        if (betaManager.hasBetaManager()) {
+	        	if (betaManager.isBetaRegistered()) {
+	        		betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_STARTUP);	
 	        	} else {
-	        		m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_REGISTER);
+	        		betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_REGISTER);
 	        	}
 	        }
         }
         
-        m_mapView = (MapView)findViewById(R.id.mapview);
-        m_mapView.setBuiltInZoomControls(true);
-        m_mapView.setSatellite(true);
+        mapView = (MapView)findViewById(R.id.mapview);
+        mapView.setBuiltInZoomControls(true);
+        mapView.setSatellite(true);
         
         //center the map
         GeoPoint center = new GeoPoint(39483760, -87325929);
-        m_mapView.getController().setCenter(center);
-        m_mapView.getController().zoomToSpan(6241, 13894);
+        mapView.getController().setCenter(center);
+        mapView.getController().zoomToSpan(6241, 13894);
         
-        m_locationOverlay = new MyLocationOverlay(this, m_mapView);
-        m_mapView.getOverlays().add(m_locationOverlay);
+        myLocation = new MyLocationOverlay(this, mapView);
+        mapView.getOverlays().add(myLocation);
     }
     
     @Override
@@ -69,30 +68,12 @@ public class MainActivity extends MapActivity {
     }
     
     @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
-    	menu.setGroupVisible(R.id.beta_channel, m_betaManager.hasBetaManager());
-        return true;
-    }
-    
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection
-        switch (item.getItemId()) {
-        case R.id.beta_manager:
-            m_betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_BETA_MANAGER);
-            return true;
-        default:
-            return super.onOptionsItemSelected(item);
-        }
-    }
-    
-    @Override
     protected void onResume() {
     	super.onResume();
     	
         //Start the location services
-        m_serviceLocation = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
-        m_locListener = new LocationListener() {
+        locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+        locationListener = new LocationListener() {
 			@Override
 			public void onLocationChanged(Location location) {
 				Log.v(TAG, location.toString());
@@ -118,23 +99,41 @@ public class MainActivity extends MapActivity {
 			}
 		};
         
-        m_serviceLocation.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, m_locListener);
-        m_serviceLocation.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, m_locListener);
+        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
         
-        // enable the location overlay
-        m_locationOverlay.enableCompass();
-        m_locationOverlay.enableMyLocation();
+        //enable the location overlay
+        myLocation.enableCompass();
+        myLocation.enableMyLocation();
     }
     
     @Override
     protected void onPause() {
     	super.onPause();
     	
-    	m_serviceLocation.removeUpdates(m_locListener);
+    	locationManager.removeUpdates(locationListener);
     	
         //disable the location overlay
-        m_locationOverlay.disableCompass();
-        m_locationOverlay.disableMyLocation();
+        myLocation.disableCompass();
+        myLocation.disableMyLocation();
+    }
+    
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+    	menu.setGroupVisible(R.id.beta_channel, betaManager.hasBetaManager());
+        return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //handle item selection
+        switch (item.getItemId()) {
+        case R.id.beta_manager:
+            betaManager.launchBetaActivity(BetaManagerManager.ACTION_SHOW_BETA_MANAGER);
+            return true;
+        default:
+            return super.onOptionsItemSelected(item);
+        }
     }
 
 	@Override
