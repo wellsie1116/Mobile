@@ -43,9 +43,10 @@
     [enclosed containsObject:location1];
     
     RHLocation *location = [RHLocation alloc];
-    location = [location initWithNavigationNodes:navigationNodes 
-                                   boundaryNodes:boundaryNodes 
-                               enclosedLocations:enclosed];
+    location = [location initWithName:@"Test Location"
+                      navigationNodes:navigationNodes
+                        boundaryNodes:boundaryNodes
+                    enclosedLocations:enclosed];
     
     STAssertTrue([location.navigationNodes containsObject: node1],
                  @"Navigation node missing");
@@ -86,9 +87,10 @@
     [enclosed containsObject:location1];
     
     RHLocation *location = [RHLocation alloc];
-    [location initWithNavigationNodes:navigationNodes
-                        boundaryNodes:boundaryNodes
-                    enclosedLocations:enclosed];
+    [location initWithName:@"Test Location"
+           navigationNodes:navigationNodes
+             boundaryNodes:boundaryNodes
+         enclosedLocations:enclosed];
     
     STAssertTrue([location.navigationNodes containsObject: node1],
                  @"Navigation node missing");
