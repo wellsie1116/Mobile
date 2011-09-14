@@ -54,6 +54,10 @@
 		92DFEACA141FD4E500889314 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */; };
 		92DFEACB141FD4E500889314 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */; };
 		92DFEACD141FEF9100889314 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DFEACC141FEF9100889314 /* MapKit.framework */; };
+		92DFEAD01420245F00889314 /* RHAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFEACF1420245F00889314 /* RHAnnotationView.m */; };
+		92DFEAD11420245F00889314 /* RHAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFEACF1420245F00889314 /* RHAnnotationView.m */; };
+		92DFEAD414203C6400889314 /* RHMapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFEAD314203C6400889314 /* RHMapLabel.m */; };
+		92DFEAD514203C6400889314 /* RHMapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DFEAD314203C6400889314 /* RHMapLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +130,10 @@
 		92DFEAC8141FD4E500889314 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
 		92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
 		92DFEACC141FEF9100889314 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		92DFEACE1420245F00889314 /* RHAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAnnotationView.h; sourceTree = "<group>"; };
+		92DFEACF1420245F00889314 /* RHAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAnnotationView.m; sourceTree = "<group>"; };
+		92DFEAD214203C6400889314 /* RHMapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMapLabel.h; sourceTree = "<group>"; };
+		92DFEAD314203C6400889314 /* RHMapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMapLabel.m; sourceTree = "<group>"; };
 		92ECC4C4141434D30073C4C3 /* RHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -306,6 +314,10 @@
 				92DFEAC9141FD4E500889314 /* MKMapView+ZoomLevel.m */,
 				9233DD0D141BAA3500B9A549 /* RHAnnotation.h */,
 				9233DD0E141BAA3500B9A549 /* RHAnnotation.m */,
+				92DFEACE1420245F00889314 /* RHAnnotationView.h */,
+				92DFEACF1420245F00889314 /* RHAnnotationView.m */,
+				92DFEAD214203C6400889314 /* RHMapLabel.h */,
+				92DFEAD314203C6400889314 /* RHMapLabel.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -435,6 +447,8 @@
 				92C930F5141114170003CE8D /* RHMKPolygonFactory.m in Sources */,
 				9233DD0F141BAA3500B9A549 /* RHAnnotation.m in Sources */,
 				92DFEACA141FD4E500889314 /* MKMapView+ZoomLevel.m in Sources */,
+				92DFEAD01420245F00889314 /* RHAnnotationView.m in Sources */,
+				92DFEAD414203C6400889314 /* RHMapLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +472,8 @@
 				92C930F6141114170003CE8D /* RHMKPolygonFactory.m in Sources */,
 				9233DD10141BAA3500B9A549 /* RHAnnotation.m in Sources */,
 				92DFEACB141FD4E500889314 /* MKMapView+ZoomLevel.m in Sources */,
+				92DFEAD11420245F00889314 /* RHAnnotationView.m in Sources */,
+				92DFEAD514203C6400889314 /* RHMapLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
