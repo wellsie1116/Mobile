@@ -19,6 +19,16 @@
 
 #import "MapViewController.h"
 #import "RHConstants.h"
+#import "RHAnnotation.h"
+#import "RHAnnotationView.h"
+
+#import "RHLocation.h"
+
+@interface MapViewController ()
+
+- (void) renderAdditionalLocations;
+    
+@end
 
 @implementation MapViewController
 
@@ -33,6 +43,8 @@
     [self.mapView setCenterCoordinate:center
                             zoomLevel:RH_INITIAL_ZOOM_LEVEL
                              animated:NO];
+    
+    [self renderAdditionalLocations];
 }
 
 
@@ -50,9 +62,44 @@
 
 - (void) viewDidUnload {
     [super viewDidUnload];
+    self.mapView = nil;
+}
 
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+- (void) renderAdditionalLocations {
+    // FIXME: This is just proof-of-concept code to render a single location.
+    //        A true implementation should obviously retrieve the location
+    //        data from somewhere dynamic.
+    RHLocation *hatfield = [[RHLocation alloc] initWithName:@"Hatfield Hall"
+                                            navigationNodes:nil
+                                              boundaryNodes:nil
+                                          enclosedLocations:nil];
+    CLLocationCoordinate2D hatfieldCenter;
+    hatfieldCenter.latitude = 39.481968;
+    hatfieldCenter.longitude = -87.322276;
+    RHAnnotation *annotation = [[RHAnnotation alloc] initWithLocation:hatfield
+                                                           coordinate:hatfieldCenter
+                                                       annotationType:RHAnnotationTypeText];
+    [self.mapView addAnnotation:annotation];
+}
+
+# pragma mark -
+# pragma mark MKMapViewDelegate Methods
+
+- (MKAnnotationView *)mapView:(MKMapView *)mapView
+            viewForAnnotation:(id <MKAnnotation>)inAnnotation {
+    RHAnnotation *annotation = (RHAnnotation *)inAnnotation;
+    NSString *identifier = annotation.location.name;
+    
+    RHAnnotationView *annotationView = (RHAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
+    
+    if (annotationView == nil) {
+        annotationView = [[[RHAnnotationView alloc] initWithAnnotation:annotation
+                                                       reuseIdentifier:identifier] autorelease];
+    }
+    
+    annotationView.enabled = YES;
+    
+    return annotationView;
 }
 
 @end

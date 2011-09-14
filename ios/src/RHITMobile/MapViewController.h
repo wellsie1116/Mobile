@@ -22,7 +22,7 @@
 #import <UIKit/UIKit.h>
 #import "MKMapView+ZoomLevel.h"
 
-@interface MapViewController : UIViewController
+@interface MapViewController : UIViewController <MKMapViewDelegate>
 
 @property (nonatomic, retain) IBOutlet MKMapView *mapView;
 
