@@ -27,7 +27,7 @@
 @synthesize enclosedLocations;
 
 - (RHLocation *) initWithName:(NSString *)newName
-              NavigationNodes:(NSArray *)newNavigationNodes
+              navigationNodes:(NSArray *)newNavigationNodes
                 boundaryNodes:(NSArray *)newBoundaryNodes
             enclosedLocations:(NSArray *)newEnclosedLocations {
     self = (RHLocation *)[super init];

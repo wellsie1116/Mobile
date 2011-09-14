@@ -40,8 +40,9 @@
 @property (nonatomic, retain) NSArray *enclosedLocations;
 
 /// Initialize with all properties.
-- (RHLocation *) initWithNavigationNodes:(NSArray *)navigationNodes
-                           boundaryNodes:(NSArray *)boundaryNodes
-                       enclosedLocations:(NSArray *)enclosedLocations;
+- (RHLocation *) initWithName:(NSString *)name
+              navigationNodes:(NSArray *)navigationNodes
+                boundaryNodes:(NSArray *)boundaryNodes
+            enclosedLocations:(NSArray *)enclosedLocations;
 
 @end
