@@ -1,0 +1,5 @@
+C:\Users\glowskst\Mobile\server\FakeClient\FakeClient\bin\Debug\FakeClient.exe
+C:\Users\glowskst\Mobile\server\FakeClient\FakeClient\bin\Debug\FakeClient.pdb
+C:\Users\glowskst\Mobile\server\FakeClient\FakeClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\glowskst\Mobile\server\FakeClient\FakeClient\obj\x86\Debug\FakeClient.exe
+C:\Users\glowskst\Mobile\server\FakeClient\FakeClient\obj\x86\Debug\FakeClient.pdb
