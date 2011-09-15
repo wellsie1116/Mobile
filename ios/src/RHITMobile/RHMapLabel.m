@@ -32,7 +32,7 @@
     
     CGContextSetTextDrawingMode(c, kCGTextStroke);
     CGContextTranslateCTM(c, 0, 1);
-    self.textColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0.8];
+    self.textColor = [UIColor blackColor];
     [super drawTextInRect:rect];
     
     CGContextSetTextDrawingMode(c, kCGTextFill);

@@ -39,10 +39,7 @@
             textView.backgroundColor = [UIColor clearColor];
             textView.text = annotation.location.name;
             textView.font = [UIFont fontWithName:@"Arial" size:10];
-            textView.textColor = [UIColor colorWithRed:101.0/255.0
-                                                 green:89.0/255.0
-                                                  blue:73.0/255.0
-                                                 alpha:1];
+            textView.textColor = [UIColor whiteColor];
             textView.textAlignment = UITextAlignmentCenter;
             [self addSubview:textView];
             break;
@@ -57,11 +54,8 @@
             textView = [[RHMapLabel alloc] initWithFrame:CGRectMake(2, 2, 96, 46)];
             textView.backgroundColor = [UIColor clearColor];
             textView.text = annotation.location.name;
-            textView.font = [UIFont fontWithName:@"Arial" size:10];
-            textView.textColor = [UIColor colorWithRed:101.0/255.0
-                                                 green:89.0/255.0
-                                                  blue:73.0/255.0
-                                                 alpha:1];
+            textView.font = [UIFont fontWithName:@"Arial-BoldMT" size:10];
+            textView.textColor = [UIColor whiteColor];
             textView.textAlignment = UITextAlignmentCenter;
             [self addSubview:textView];
             break;
