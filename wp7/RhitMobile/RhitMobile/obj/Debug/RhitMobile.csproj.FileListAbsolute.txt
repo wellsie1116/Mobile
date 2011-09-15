@@ -1,59 +1,23 @@
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\Bin\Debug\ApplicationIcon.png
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Background.png
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.dll
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.pdb
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\Bin\Debug\AppManifest.xaml
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.xap
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\obj\Debug\App.g.i.cs
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\obj\Debug\MainPage.g.i.cs
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\obj\Debug\MapPage.g.i.cs
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\obj\Debug\RhitMobile.g.resources
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\obj\Debug\RhitMobile.dll
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\obj\Debug\RhitMobile.pdb
-C:\Users\t-bwatts\Dropbox\RhitMobile\RhitMobile\obj\Debug\XapCacheFile.xml
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\obj\Debug\App.g.i.cs
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\obj\Debug\MainPage.g.i.cs
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\obj\Debug\MapPage.g.i.cs
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\obj\Debug\SettingsPage.g.i.cs
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\obj\Debug\RhitMobile.g.resources
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\ApplicationIcon.png
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Background.png
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.dll
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.pdb
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\GalaSoft.MvvmLight.Extras.WP7.dll
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\GalaSoft.MvvmLight.WP7.dll
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\System.Windows.Interactivity.dll
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\obj\Debug\RhitMobile.dll
-C:\Users\wattsbn\Dropbox\RhitMobile\RhitMobile\obj\Debug\RhitMobile.pdb
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\ApplicationIcon.png
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Background.png
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.dll
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.pdb
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\GalaSoft.MvvmLight.Extras.WP7.dll
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\GalaSoft.MvvmLight.WP7.dll
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\System.Windows.Interactivity.dll
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\obj\Debug\App.g.i.cs
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\obj\Debug\MainPage.g.i.cs
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\obj\Debug\MapPage.g.i.cs
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\obj\Debug\SettingsPage.g.i.cs
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\obj\Debug\RhitMobile.g.resources
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\obj\Debug\RhitMobile.dll
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\obj\Debug\RhitMobile.pdb
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\AppManifest.xaml
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.xap
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
-C:\Users\Mr. Power\Dropbox\RhitMobile\RhitMobile\obj\Debug\XapCacheFile.xml
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\obj\Debug\App.g.i.cs
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\obj\Debug\MainPage.g.i.cs
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\obj\Debug\MapPage.g.i.cs
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\obj\Debug\SettingsPage.g.i.cs
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\obj\Debug\RhitMobile.g.resources
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\ApplicationIcon.png
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\Background.png
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.dll
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.pdb
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\AppManifest.xaml
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\RhitMobile.xap
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\GalaSoft.MvvmLight.Extras.WP7.dll
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\GalaSoft.MvvmLight.WP7.dll
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\obj\Debug\RhitMobile.dll
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\obj\Debug\RhitMobile.pdb
+C:\Users\Mr. Power\Desktop\New folder\wp7v70\RhitMobile\RhitMobile\obj\Debug\XapCacheFile.xml

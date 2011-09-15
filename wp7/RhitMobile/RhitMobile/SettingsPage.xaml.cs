@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 
 namespace RhitMobile {
     public partial class SettingsPage : PhoneApplicationPage {
+
         public SettingsPage() {
             InitializeComponent();
             List<MapTileSource> source = new List<MapTileSource>();
@@ -24,27 +25,32 @@ namespace RhitMobile {
             source.Add(new MapTileSource() { Name = "Google Hybrid", });
             source.Add(new MapTileSource() { Name = "Google Street", });
             this.mapSourcePicker.ItemsSource = source;
-            this.mapSourcePicker.SelectionChanged += new SelectionChangedEventHandler(mapSourcePicker_SelectionChanged);
         }
 
-        void mapSourcePicker_SelectionChanged(Object sender, SelectionChangedEventArgs e) {
-            this.SaveState("MapSource", ((MapTileSource) mapSourcePicker.SelectedItem).Name);
+        protected override void OnNavigatedFrom(NavigationEventArgs e) {
+            string source = ((MapTileSource) mapSourcePicker.SelectedItem).Name;
+            this.SaveState("MapSource", source);
+            this.SaveState("TileOverlay", toggleSwitch1.IsChecked);
+            this.SaveState("PolygonOverlay", toggleSwitch2.IsChecked);
         }
+
         protected override void OnNavigatedTo(NavigationEventArgs e) {
             string ms_name = this.LoadState<string>("MapSource");
-            if (ms_name != null) {
-                foreach (MapTileSource source in mapSourcePicker.Items) {
-                    if (source.Name == ms_name)
+            toggleSwitch1.IsChecked = (bool) this.LoadState<object>("TileOverlay", true);
+            toggleSwitch2.IsChecked = (bool) this.LoadState<object>("PolygonOverlay", false);
+            if(ms_name != null) {
+                foreach(MapTileSource source in mapSourcePicker.Items) {
+                    if(source.Name == ms_name)
                         mapSourcePicker.SelectedItem = source;
                 }
             }
         }
-    }
 
-    public class MapTileSource {
-        public string Name {
-            get;
-            set;
+        public class MapTileSource {
+            public string Name {
+                get;
+                set;
+            }
         }
     }
 }
