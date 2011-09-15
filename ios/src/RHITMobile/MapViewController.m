@@ -40,7 +40,7 @@
     // Initialize what's visible on the map
     CLLocationCoordinate2D center = {RH_CAMPUS_CENTER_LATITUDE,
         RH_CAMPUS_CENTER_LONGITUDE};
-    self.mapView.mapType = MKMapTypeHybrid;
+    self.mapView.mapType = MKMapTypeSatellite;
     [self.mapView setCenterCoordinate:center
                             zoomLevel:RH_INITIAL_ZOOM_LEVEL
                              animated:NO];
