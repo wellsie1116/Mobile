@@ -18,8 +18,6 @@ import com.google.android.maps.MyLocationOverlay;
 
 public class MainActivity extends MapActivity {
 	
-	public static String TAG = "MobileDirectoryActivity";
-
 	private BetaManagerManager betaManager;
 
     private MapView mapView;
@@ -55,7 +53,11 @@ public class MainActivity extends MapActivity {
         GeoPoint center = new GeoPoint(39483760, -87325929);
         mapView.getController().setCenter(center);
         mapView.getController().zoomToSpan(6241, 13894);
+
+        //draw something
+        mapView.getOverlays().add(new BuildingOverlay(this, center));
         
+        //display our location indicator (and compass)
         myLocation = new MyLocationOverlay(this, mapView);
         mapView.getOverlays().add(myLocation);
     }
@@ -76,7 +78,7 @@ public class MainActivity extends MapActivity {
         locationListener = new LocationListener() {
 			@Override
 			public void onLocationChanged(Location location) {
-				Log.v(TAG, location.toString());
+				Log.v(C.TAG, location.toString());
 			}
 
 			@Override

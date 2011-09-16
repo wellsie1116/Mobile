@@ -11,8 +11,6 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.util.Log;
 
 public class BetaManagerManager extends ContextWrapper {
-	
-	public static String TAG = "MobileDirectoryBetaManager";
 
 	public static String ACTION_SHOW_STARTUP = "edu.rosehulman.android.directory.beta.SHOW_STARTUP";
     public static String ACTION_SHOW_REGISTER = "edu.rosehulman.android.directory.beta.SHOW_REGISTER";
@@ -45,7 +43,7 @@ public class BetaManagerManager extends ContextWrapper {
     	try {
     		prefs = createPackageContext(BETA_PACKAGE, 0).getSharedPreferences(PREFS_FILE, MODE_WORLD_READABLE);	
     	} catch (NameNotFoundException ex) {
-    		Log.e(TAG, "Failed to open beta shared preferences");
+    		Log.e(C.TAG, "Failed to open beta shared preferences");
     		return false;
     	}
     	
@@ -57,7 +55,7 @@ public class BetaManagerManager extends ContextWrapper {
     	try {
     		startActivity(intent);
     	} catch (ActivityNotFoundException ex) {
-    		Log.e(TAG, "Activity not found", ex);
+    		Log.e(C.TAG, "Activity not found", ex);
     	}
     }	
 }
